@@ -23,14 +23,15 @@ import gallary from "./components/pages/gallary/GalleryComponent";
 import packageDetails from "./components/pages/package/PackageDetails";
 import SignIn from "./components/pages/Account/SignIn";
 import Signup from "./components/pages/Account/Signup";
-import UploadingDestinations from "./components/pages/Admin/UploadingDestinations";
+
+import Traval from "./components/pages/Traval/Traval";
 
 //Initializations All Css
 import "./index.css";
 import "./index.scss";
 
 //Default Warniing Error Hide
-console.log = console.warn = console.error = () => {};
+// console.log = console.warn = console.error = () => {};
 
 /*
  * Version : 0.1
@@ -70,6 +71,10 @@ class Root extends React.Component {
               path={`${process.env.PUBLIC_URL}/gallary`}
               component={gallary}
             />
+            <Route
+              path={`${process.env.PUBLIC_URL}/Traval`}
+              component={Traval}
+            />
 
             <Route
               path={`${process.env.PUBLIC_URL}/contact`}
@@ -82,10 +87,6 @@ class Root extends React.Component {
             <Route
               path={`${process.env.PUBLIC_URL}/Signup`}
               component={Signup}
-            />
-            <Route
-              path={`${process.env.PUBLIC_URL}/UploadingDestinations`}
-              component={UploadingDestinations}
             />
           </Layout>
         </Switch>
