@@ -26,6 +26,7 @@ import Signup from "./components/pages/Account/Signup";
 
 import Traval from "./components/pages/Traval/Traval";
 
+//this is a comment
 //Initializations All Css
 import "./index.css";
 import "./index.scss";
