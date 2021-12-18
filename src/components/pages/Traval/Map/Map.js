@@ -17,8 +17,8 @@ const Map = ({
 }) => {
   const matches = useMediaQuery("(min-width:600px)");
   const classes = useStyles();
-   
-  const coords = {lat: 0 , lng: 0}
+
+  const coords = { lat: 0, lng: 0 };
 
   return (
     <div className={classes.mapContainer}>
@@ -94,6 +94,7 @@ const Map = ({
             </div>
           ))} */}
       </GoogleMapReact>
+      <button>dkjsfah</button>
     </div>
   );
 };
