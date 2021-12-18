@@ -8,8 +8,8 @@ import mapStyles from "../mapStyles";
 import useStyles from "./styles.js";
 
 const Map = ({
-  // coords,
-  // places,
+  coords,
+  places,
   setCoords,
   setBounds,
   setChildClicked,
@@ -18,35 +18,26 @@ const Map = ({
   const matches = useMediaQuery("(min-width:600px)");
   const classes = useStyles();
 
-  const coords = { lat: 0, lng: 0 };
-
   return (
     <div className={classes.mapContainer}>
       <GoogleMapReact
         bootstrapURLKeys={{ key: "AIzaSyBTgpc0HJsiOx8L2p3wdotfoXw7irG-TCc" }}
         defaultCenter={coords}
         center={coords}
-        defaultZoom={14}
+        defaultZoom={13}
         margin={[50, 50, 50, 50]}
-        options={
-          ""
-          //   {
-          //   disableDefaultUI: true,
-          //   zoomControl: true,
-          //   styles: mapStyles,
-          // }
-        }
-        onChange={(e) => {
-          console.log(e);
-          // setCoords({ lat: e.center.lat, lng: e.center.lng });
-          // setBounds({ ne: e.marginBounds.ne, sw: e.marginBounds.sw });
+        options={{
+          disableDefaultUI: true,
+          zoomControl: true,
+          styles: mapStyles,
         }}
-        onChildClick={
-          ""
-          // (child) => setChildClicked(child)
-        }
+        onChange={(e) => {
+          setCoords({ lat: e.center.lat, lng: e.center.lng });
+          setBounds({ ne: e.marginBounds.ne, sw: e.marginBounds.sw });
+        }}
+        onChildClick={(child) => setChildClicked(child)}
       >
-        {/* {places.length &&
+        {places.length &&
           places.map((place, i) => (
             <div
               className={classes.markerContainer}
@@ -83,7 +74,7 @@ const Map = ({
                 </Paper>
               )}
             </div>
-          ))} */}
+          ))}
         {/* {weatherData?.list?.length &&
           weatherData.list.map((data, i) => (
             <div key={i} lat={data.coord.lat} lng={data.coord.lon}>
@@ -94,7 +85,6 @@ const Map = ({
             </div>
           ))} */}
       </GoogleMapReact>
-      <button>dkjsfah</button>
     </div>
   );
 };
