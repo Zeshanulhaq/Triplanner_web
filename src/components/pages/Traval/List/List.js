@@ -14,16 +14,16 @@ import useStyles from "./styles.js";
 
 const List = ({
   places,
-  // setType,
-  // rating,
-  // setRating,
+  type,
+  setType,
+  rating,
+  setRating,
   childClicked,
   isLoading,
 }) => {
   const [elRefs, setElRefs] = useState([]);
   const classes = useStyles();
-  const [type, setType] = useState("restaurants");
-  const [rating, setRating] = useState("");
+
 
   useEffect(() => {
     setElRefs((refs) =>
