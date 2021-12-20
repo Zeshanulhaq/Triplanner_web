@@ -7,7 +7,10 @@ import { Link } from "react-router-dom";
 //Import Images
 import features1Img from "../../../assets/images/feature/f-1.png";
 import features2Img from "../../../assets/images/feature/f-2.png";
-
+import features3Img from "../../../assets/images/feature/malam-jabba.png";
+import features4Img from "../../../assets/images/feature/Naran_friends.png";
+import features5Img from "../../../assets/images/feature/murree.png";
+import features6Img from "../../../assets/images/feature/islamabad-1.png";
 const Features = () => {
   const featuresOptions = {
     items: 2,
@@ -62,21 +65,81 @@ const Features = () => {
               >
                 <div className="feature-card">
                   <div className="feature-img">
-                    <img src={features1Img} alt="" className="img-fluid" />
+                    <img src={features3Img} alt="" className="img-fluid" />
                   </div>
                   <div className="feature-content">
                     <Link
                       to={`${process.env.PUBLIC_URL}/package-details`}
                       className="title"
                     >
-                      Group Travel Go To Bea Amsterdam
+                      Group Travel Go To Malam Jabba In Winter
                     </Link>
                     <h5>
                       <i className="bx bxs-star" />
                       <span> 7K+</span>Rating
                     </h5>
                     <strong>
-                      $150 <span>$200</span>
+                      3000PKR Per Person <span>5000PKR</span>
+                    </strong>
+                  </div>
+                </div>
+                <div className="feature-card">
+                  <div className="feature-img">
+                    <img src={features4Img} alt="" className="img-fluid" />
+                  </div>
+                  <div className="feature-content">
+                    <Link
+                      to={`${process.env.PUBLIC_URL}/package-details`}
+                      className="title"
+                    >
+                      Group Travel Go To Naran,Kaghan In Summer.
+                    </Link>
+                    <h5>
+                      <i className="bx bxs-star" />
+                      <span> 7K+</span>Rating
+                    </h5>
+                    <strong>
+                    5000PKR Per Person <span>6000PKR</span>
+                    </strong>
+                  </div>
+                </div>
+                <div className="feature-card">
+                  <div className="feature-img">
+                    <img src={features6Img} alt="" className="img-fluid" />
+                  </div>
+                  <div className="feature-content">
+                    <Link
+                      to={`${process.env.PUBLIC_URL}/package-details`}
+                      className="title"
+                    >
+                      Group Travel Go To Islamabad
+                    </Link>
+                    <h5>
+                      <i className="bx bxs-star" />
+                      <span> 7K+</span>Rating
+                    </h5>
+                    <strong>
+                    5000PKR Per Person <span>8000PKR</span>
+                    </strong>
+                  </div>
+                </div>
+                <div className="feature-card">
+                  <div className="feature-img">
+                    <img src={features5Img} alt="" className="img-fluid" />
+                  </div>
+                  <div className="feature-content">
+                    <Link
+                      to={`${process.env.PUBLIC_URL}/package-details`}
+                      className="title"
+                    >
+                      Group Travel Go To Murree(Galiyat)
+                    </Link>
+                    <h5>
+                      <i className="bx bxs-star" />
+                      <span> 7K+</span>Rating
+                    </h5>
+                    <strong>
+                    5000PKR Per Person <span>7000</span>
                     </strong>
                   </div>
                 </div>
@@ -89,74 +152,14 @@ const Features = () => {
                       to={`${process.env.PUBLIC_URL}/package-details`}
                       className="title"
                     >
-                      Group Travel Go To Bea Amsterdam
+                      Group Travel Go Lahore In Oct , November
                     </Link>
                     <h5>
                       <i className="bx bxs-star" />
                       <span> 7K+</span>Rating
                     </h5>
                     <strong>
-                      $150 <span>$200</span>
-                    </strong>
-                  </div>
-                </div>
-                <div className="feature-card">
-                  <div className="feature-img">
-                    <img src={features1Img} alt="" className="img-fluid" />
-                  </div>
-                  <div className="feature-content">
-                    <Link
-                      to={`${process.env.PUBLIC_URL}/package-details`}
-                      className="title"
-                    >
-                      Group Travel Go To Bea Amsterdam
-                    </Link>
-                    <h5>
-                      <i className="bx bxs-star" />
-                      <span> 7K+</span>Rating
-                    </h5>
-                    <strong>
-                      $150 <span>$200</span>
-                    </strong>
-                  </div>
-                </div>
-                <div className="feature-card">
-                  <div className="feature-img">
-                    <img src={features2Img} alt="" className="img-fluid" />
-                  </div>
-                  <div className="feature-content">
-                    <Link
-                      to={`${process.env.PUBLIC_URL}/package-details`}
-                      className="title"
-                    >
-                      Group Travel Go To Bea Amsterdam
-                    </Link>
-                    <h5>
-                      <i className="bx bxs-star" />
-                      <span> 7K+</span>Rating
-                    </h5>
-                    <strong>
-                      $150 <span>$200</span>
-                    </strong>
-                  </div>
-                </div>
-                <div className="feature-card">
-                  <div className="feature-img">
-                    <img src={features1Img} alt="" className="img-fluid" />
-                  </div>
-                  <div className="feature-content">
-                    <Link
-                      to={`${process.env.PUBLIC_URL}/package-details`}
-                      className="title"
-                    >
-                      Group Travel Go To Bea Amsterdam
-                    </Link>
-                    <h5>
-                      <i className="bx bxs-star" />
-                      <span> 7K+</span>Rating
-                    </h5>
-                    <strong>
-                      $150 <span>$200</span>
+                     4500PKR Per Person<span>6000PKR</span>
                     </strong>
                   </div>
                 </div>

@@ -45,7 +45,7 @@ const AboutUs = () => {
                   </div>
                   <div className="contact-info">
                     <h5>Address</h5>
-                    <p>971-949 8th Ave 949 New York, NY</p>
+                    <p>Comsats university Islamabad</p>
                   </div>
                 </div>
               </div>
@@ -56,7 +56,7 @@ const AboutUs = () => {
                   </div>
                   <div className="contact-info">
                     <h5>Email &amp; Phone</h5>
-                    <p>(123) 456 7890 hello@gmail.com</p>
+                    <p>(+092 1234567)    hello@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -102,12 +102,7 @@ const AboutUs = () => {
                 <div className="contact-details">
                   <h5 className="contact-d-head">Get In Touch</h5>
                   <p>
-                    Suspendisse dolor risus, congue ac diam id, viverra
-                    facilisis dolor. Cras nec purus sagittis, varius tortor at,
-                    maximus erat. Sed at tellus id tellus lobortis dictum.
-                    Mauris dignissim, turpis vitae ullamcorper fermentum, sapien
-                    arcu aliquam arcu, in viverra quam est ac ex. Cras sed
-                    lectus eu.
+                   YOu can contact any giving time.
                   </p>
                   <ul className="office-clock">
                     <li>

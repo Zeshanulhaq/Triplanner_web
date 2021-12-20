@@ -50,7 +50,7 @@ const GuideWrapper = () => {
             <div className="col-lg-12 col-md-12 col-sm-12">
               <div className="section-head head-left pb-40">
                 <h5>Tour Guide</h5>
-                <h2>All Guide Are 5 Year Expart In Travel</h2>
+                <h2>All Guide Are 5+ Year Expart In Travel</h2>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ const GuideWrapper = () => {
               <div className="guide-thumb">
                 <img src={guide1Img} alt="" className="img-fluid" />
                 <div className="guide-info">
-                  <strong>Sakura Chen</strong>
+                  <strong>Sara baig</strong>
                   <p>Tour Guide</p>
                   <ul className="guide-links">
                     <li>
@@ -91,7 +91,7 @@ const GuideWrapper = () => {
               <div className="guide-thumb">
                 <img src={guide3Img} alt="" className="img-fluid" />
                 <div className="guide-info">
-                  <strong>Sakura Chen</strong>
+                  <strong>Eva zuback</strong>
                   <p>Tour Guide</p>
                   <ul className="guide-links">
                     <li>
@@ -122,7 +122,7 @@ const GuideWrapper = () => {
               <div className="guide-thumb">
                 <img src={guide4Img} alt="" className="img-fluid" />
                 <div className="guide-info">
-                  <strong>Sakura Chen</strong>
+                  <strong>Usman</strong>
                   <p>Tour Guide</p>
                   <ul className="guide-links">
                     <li>
@@ -153,7 +153,7 @@ const GuideWrapper = () => {
               <div className="guide-thumb">
                 <img src={guide2Img} alt="" className="img-fluid" />
                 <div className="guide-info">
-                  <strong>Sakura Chen</strong>
+                  <strong>Shahbaz Ahmed</strong>
                   <p>Tour Guide</p>
                   <ul className="guide-links">
                     <li>

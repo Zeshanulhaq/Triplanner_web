@@ -64,12 +64,10 @@ const Review = () => {
                 <img src={review1Img} alt="" className="img-fluid" />
               </div>
               <div className="reviewer-info">
-                <h3>Dina Jems</h3>
+                <h3>Tamina sheikh</h3>
                 <h5>Traveller</h5>
                 <p>
-                  Fusce aliquam luctus est, eget tincidunt velit scelerisque
-                  rhoncus. Aliquam lacinia ipsum ornare, porttitor risus nec,
-                  mattis mauris.{" "}
+                It was a very nice experience to travel through Trip Planner i would like to suggest it to my friends who would like to come and experience such a pleseant journey..{" "}
                 </p>
               </div>
             </div>
@@ -78,12 +76,12 @@ const Review = () => {
                 <img src={review2Img} alt="" className="img-fluid" />
               </div>
               <div className="reviewer-info">
-                <h3>Jahid Hassan</h3>
+                <h3>Abdul wahab</h3>
                 <h5>Traveller</h5>
                 <p>
-                  Fusce aliquam luctus est, eget tincidunt velit scelerisque
-                  rhoncus. Aliquam lacinia ipsum ornare, porttitor risus nec,
-                  mattis mauris.{" "}
+                It was a very nice experience to travel through
+                 Trip Planner i would like to suggest it to my friends who
+                  would like to come and experience such a pleseant journey..{" "}
                 </p>
               </div>
             </div>
@@ -92,12 +90,12 @@ const Review = () => {
                 <img src={review3Img} alt="" className="img-fluid" />
               </div>
               <div className="reviewer-info">
-                <h3>Shwan Pull</h3>
+                <h3>Muhammad Irfan</h3>
                 <h5>Traveller</h5>
                 <p>
-                  Fusce aliquam luctus est, eget tincidunt velit scelerisque
-                  rhoncus. Aliquam lacinia ipsum ornare, porttitor risus nec,
-                  mattis mauris.{" "}
+                It was a very nice experience to travel through
+                 Trip Planner i would like to suggest it to my friends who
+                  would like to come and experience such a pleseant journey.{" "}
                 </p>
               </div>
             </div>
@@ -106,12 +104,12 @@ const Review = () => {
                 <img src={review1Img} alt="" className="img-fluid" />
               </div>
               <div className="reviewer-info">
-                <h3>Dina Jems</h3>
+                <h3>Sara Irfan</h3>
                 <h5>Traveller</h5>
                 <p>
-                  Fusce aliquam luctus est, eget tincidunt velit scelerisque
-                  rhoncus. Aliquam lacinia ipsum ornare, porttitor risus nec,
-                  mattis mauris.{" "}
+                It was a very nice experience to travel through
+                 Trip Planner i would like to suggest it to my friends who
+                  would like to come and experience such a pleseant journey..{" "}
                 </p>
               </div>
             </div>
@@ -120,12 +118,12 @@ const Review = () => {
                 <img src={review2Img} alt="" className="img-fluid" />
               </div>
               <div className="reviewer-info">
-                <h3>Jahid Hassan</h3>
+                <h3>Raja Irfan</h3>
                 <h5>Traveller</h5>
                 <p>
-                  Fusce aliquam luctus est, eget tincidunt velit scelerisque
-                  rhoncus. Aliquam lacinia ipsum ornare, porttitor risus nec,
-                  mattis mauris.{" "}
+                It was a very nice experience to travel through
+                 Trip Planner i would like to suggest it to my friends who
+                  would like to come and experience such a pleseant journey..{" "}
                 </p>
               </div>
             </div>
@@ -134,12 +132,12 @@ const Review = () => {
                 <img src={review3Img} alt="" className="img-fluid" />
               </div>
               <div className="reviewer-info">
-                <h3>Shwan Pull</h3>
+                <h3>Waqas Ali</h3>
                 <h5>Traveller</h5>
                 <p>
-                  Fusce aliquam luctus est, eget tincidunt velit scelerisque
-                  rhoncus. Aliquam lacinia ipsum ornare, porttitor risus nec,
-                  mattis mauris.{" "}
+                It was a very nice experience to travel through
+                 Trip Planner i would like to suggest it to my friends who
+                  would like to come and experience such a pleseant journey...{" "}
                 </p>
               </div>
             </div>
@@ -148,12 +146,12 @@ const Review = () => {
                 <img src={review1Img} alt="" className="img-fluid" />
               </div>
               <div className="reviewer-info">
-                <h3>Dina Jems</h3>
+                <h3>Sidra baig</h3>
                 <h5>Traveller</h5>
                 <p>
-                  Fusce aliquam luctus est, eget tincidunt velit scelerisque
-                  rhoncus. Aliquam lacinia ipsum ornare, porttitor risus nec,
-                  mattis mauris.{" "}
+                It was a very nice experience to travel through
+                 Trip Planner i would like to suggest it to my friends who
+                  would like to come and experience such a pleseant journey..{" "}
                 </p>
               </div>
             </div>

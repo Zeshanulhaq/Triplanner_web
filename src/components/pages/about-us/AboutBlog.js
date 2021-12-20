@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
+
 //Import Images
 import blog1Img from "../../../assets/images/blog/b-1.png";
 import blog2Img from "../../../assets/images/blog/b-2.png";
 import blog3Img from "../../../assets/images/blog/b-3.png";
+import blog4Img from "../../../assets/images/blog/Fairy Meadows.png";
+import blog5Img from "../../../assets/images/blog/BlogLah.png";
+import blogaboutbalochistan from "../../../assets/images/blog/balochistan.png";
 
 const AboutBlog = () => {
   return (
@@ -28,27 +32,25 @@ const AboutBlog = () => {
             >
               <div className="blog-card">
                 <div className="blog-img">
-                  <img src={blog1Img} alt="" className="img-fluid" />
+                  <img src={blog4Img} alt="" className="img-fluid" />
                   <div className="blog-date">
                     <i className="flaticon-calendar" /> 1 April, 2021
                   </div>
                 </div>
                 <div className="blog-details">
                   <div className="blog-info">
-                    <Link to={`#`} className="blog-writer">
+                    <Link to={`#https://againstthecompass.com/en/fairy-meadows-trek-nanga-parbat-base-camp`} className="blog-writer">
                       <i className="flaticon-user" />
-                      Dina Jems
+                      Joan Torres
                     </Link>
                     <Link to={`#`} className="blog-comment">
                       <i className="flaticon-comment" />
                       <span>(3)</span>Comment
                     </Link>
                   </div>
-                  <Link
-                    to={`${process.env.PUBLIC_URL}/blog-details`}
-                    className="blog-title"
-                  >
-                    Donec egestas orci viverra fermentum risus.
+                  <Link to={`${process.env.PUBLIC_URL}/blog-details`} className="blog-title">
+                    FAIRY MEADOWS TREK & NANGA PARBAT BASE CAMP – A COMPLETE GUIDE
+                    {/* https://againstthecompass.com/en/fairy-meadows-trek-nanga-parbat-base-camp */}
                   </Link>
                   <div className="blog-btn">
                     <Link
@@ -68,16 +70,16 @@ const AboutBlog = () => {
             >
               <div className="blog-card">
                 <div className="blog-img">
-                  <img src={blog2Img} alt="" className="img-fluid" />
+                  <img src={blog5Img} alt="" className="img-fluid" />
                   <div className="blog-date">
                     <i className="flaticon-calendar" /> 1 April, 2021
                   </div>
                 </div>
                 <div className="blog-details">
                   <div className="blog-info">
-                    <Link to={`#`} className="blog-writer">
+                    <Link to={`https://stujarvis.com/2017/11/05/lahore-the-walled-city/`} className="blog-writer">
                       <i className="flaticon-user" />
-                      Dina Jems
+                      Rio de Janeiro
                     </Link>
                     <Link to={`#`} className="blog-comment">
                       <i className="flaticon-comment" />
@@ -88,7 +90,8 @@ const AboutBlog = () => {
                     to={`${process.env.PUBLIC_URL}/blog-details`}
                     className="blog-title"
                   >
-                    Praesent ut mattis ante the Nullam lobortis.
+                    LAHORE – THE WALLED CITY
+                    {/* https://stujarvis.com/2017/11/05/lahore-the-walled-city*/}
                   </Link>
                   <div className="blog-btn">
                     <Link
@@ -108,7 +111,7 @@ const AboutBlog = () => {
             >
               <div className="blog-card">
                 <div className="blog-img">
-                  <img src={blog3Img} alt="" className="img-fluid" />
+                  <img src={blogaboutbalochistan} alt="" className="img-fluid" />
                   <div className="blog-date">
                     <i className="flaticon-calendar" /> 1 April, 2021
                   </div>
@@ -117,7 +120,7 @@ const AboutBlog = () => {
                   <div className="blog-info">
                     <Link to={`#`} className="blog-writer">
                       <i className="flaticon-user" />
-                      Dina Jems
+                      Basile
                     </Link>
                     <Link to={`#`} className="blog-comment">
                       <i className="flaticon-comment" />
@@ -128,7 +131,8 @@ const AboutBlog = () => {
                     to={`${process.env.PUBLIC_URL}/blog-details`}
                     className="blog-title"
                   >
-                    Maecenas vehicula risus non neque tincidunt.
+                    Inside Balochistan, Pakistan 
+                    {/* http://crossingvalleys.com/2018/01/29/inside-balochistan-pakistan/ */}
                   </Link>
                   <div className="blog-btn">
                     <Link

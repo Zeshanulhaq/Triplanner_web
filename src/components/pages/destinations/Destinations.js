@@ -55,6 +55,9 @@ const AboutUs = () => {
       <BreadCrumb />
 
       {/* =============== Destinations area start =============== */}
+
+
+      
       <div className="destinations-area pt-120">
         <div className="container">
           <div className="row">
@@ -65,6 +68,284 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
+
+          <div className="row">
+                       <div className="col-lg-3 col-md-3">
+                           <div className="package-slider-wrap">
+                               <img src={destinations1Img} alt="" className="img-fluid" />
+                               <div className="pakage-overlay">
+                                   <strong>Punjab</strong>
+                               </div>
+                           </div>
+                       </div>
+                       <div className="col-lg-9 col-md-9">
+                           <OwlCarousel className="row owl-carousel destinations-1"  {...destinationsOptions}>
+                               <div className="package-card">
+                                   <div className="package-thumb">
+                                       <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+                                           <img src={destinations4Img} alt="" className="img-fluid" />
+                                       </Link>
+                                   </div>
+                                   <div className="package-details">
+                                       <div className="package-info">
+                                           <h5><span>4500</span>/Per Person</h5>
+                                       </div>
+                                       <h3><i className="flaticon-arrival" />
+                                           <Link to={`${process.env.PUBLIC_URL}/package-details`}>Khewra Mines, Jhelum</Link>
+                                       </h3>
+                                       <div className="package-rating">
+                                           <i className="bx bxs-star" />
+                                           <strong><span>1.3K+</span> Rating</strong>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div className="package-card">
+                                   <div className="package-thumb">
+                                       <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+                                           <img src={destinations5Img} alt="" className="img-fluid" />
+                                       </Link>
+                                   </div>
+                                   <div className="package-details">
+                                       <div className="package-info">
+                                           <h5><span>5000</span>/Per Person</h5>
+                                       </div>
+                                       <h3><i className="flaticon-arrival" />
+                                           <Link to={`${process.env.PUBLIC_URL}/package-details`}>shahi Qila, Lahore</Link>
+                                       </h3>
+                                       <div className="package-rating">
+                                           <i className="bx bxs-star" />
+                                           <strong><span>1.3K+</span> Rating</strong>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div className="package-card">
+                                   <div className="package-thumb">
+                                       <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+                                           <img src={destinations6Img} alt="" className="img-fluid" />
+                                       </Link>
+                                   </div>
+                                   <div className="package-details">
+                                       <div className="package-info">
+                                           <h5><span>4500</span>/Per Person</h5>
+                                       </div>
+                                       <h3><i className="flaticon-arrival" />
+                                           <Link to={`${process.env.PUBLIC_URL}/package-details`}>Thal Desert, Jhang</Link>
+                                       </h3>
+                                       <div className="package-rating">
+                                           <i className="bx bxs-star" />
+                                           <strong><span>1.3K+</span> Rating</strong>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div className="package-card">
+                                   <div className="package-thumb">
+                                       <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+                                           <img src={destinations7Img} alt="" className="img-fluid" />
+                                       </Link>
+                                   </div>
+                                   <div className="package-details">
+                                       <div className="package-info">
+                                           <h5><span>3500</span>/Per Person</h5>
+                                       </div>
+                                       <h3><i className="flaticon-arrival" />
+                                           <Link to={`${process.env.PUBLIC_URL}/package-details`}>Taxila sites & Mounuments, Rawalpindi</Link>
+                                       </h3>
+                                       <div className="package-rating">
+                                           <i className="bx bxs-star" />
+                                           <strong><span>1.3K+</span> Rating</strong>
+                                       </div>
+                                   </div>
+                               </div>
+                           </OwlCarousel>
+                       </div>
+                   </div>
+
+                   <div className="row">
+                       <div className="col-lg-9 col-md-9">
+                           <OwlCarousel className="row owl-carousel destinations-2"  {...destinationsOptions}>
+                               <div className="package-card">
+                                   <div className="package-thumb">
+                                       <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+                                           <img src={destinations7Img} alt="" className="img-fluid" />
+                                       </Link>
+                                   </div>
+                                   <div className="package-details">
+                                       <div className="package-info">
+                                           <h5><span>3500PKR</span>/Per Person</h5>
+                                       </div>
+                                       <h3><i className="flaticon-arrival" />
+                                           <Link to={`${process.env.PUBLIC_URL}/package-details`}>Gwadar</Link>
+                                       </h3>
+                                       <div className="package-rating">
+                                           <i className="bx bxs-star" />
+                                           <strong><span>1.3K+</span> Rating</strong>
+                                       </div>
+                                   </div>
+                               </div>
+
+                               <div className="package-card">
+                                   <div className="package-thumb">
+                                       <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+                                           <img src={destinations8Img} alt="" className="img-fluid" />
+                                       </Link>
+                                   </div>
+                                   <div className="package-details">
+                                       <div className="package-info">
+                                           <h5><span>5500PKR</span>/Per Person</h5>
+                                       </div>
+                                       <h3><i className="flaticon-arrival" />
+                                           <Link to={`${process.env.PUBLIC_URL}/package-details`}>ziarat</Link>
+                                       </h3>
+                                       <div className="package-rating">
+                                           <i className="bx bxs-star" />
+                                           <strong><span>1.3K+</span> Rating</strong>
+                                       </div>
+                                   </div>
+                               </div>
+
+                               <div className="package-card">
+                                   <div className="package-thumb">
+                                       <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+                                           <img src={destinations9Img} alt="" className="img-fluid" />
+                                       </Link>
+                                   </div>
+                                   <div className="package-details">
+                                       <div className="package-info">
+                                           <h5><span>6000PKR</span>/Per Person</h5>
+                                       </div>
+                                       <h3><i className="flaticon-arrival" />
+                                           <Link to={`${process.env.PUBLIC_URL}/package-details`}>Quetta</Link>
+                                       </h3>
+                                       <div className="package-rating">
+                                           <i className="bx bxs-star" />
+                                           <strong><span>1.3K+</span> Rating</strong>
+                                       </div>
+                                   </div>
+                               </div>
+
+                               <div className="package-card">
+                                   <div className="package-thumb">
+                                       <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+                                           <img src={destinations10Img} alt="" className="img-fluid" />
+                                       </Link>
+                                   </div>
+                                   <div className="package-details">
+                                       <div className="package-info">
+                                           <h5><span>2500PKR</span>/Per Person</h5>
+                                       </div>
+                                       <h3><i className="flaticon-arrival" />
+                                           <Link to={`${process.env.PUBLIC_URL}/package-details`}>jhaal magsi</Link>
+                                       </h3>
+                                       <div className="package-rating">
+                                           <i className="bx bxs-star" />
+                                           <strong><span>1.3K+</span> Rating</strong>
+                                       </div>
+                                   </div>
+                               </div>
+                           </OwlCarousel>
+                       </div>
+                       <div className="col-lg-3 col-md-3">
+                           <div className="package-slider-wrap">
+                               <img src={destinations2Img} alt="" className="img-fluid" />
+                               <div className="pakage-overlay">
+                                   <strong>Balochistan</strong>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+          
+                   <div className="row">
+                       <div className="col-lg-3 col-md-3">
+                           <div className="package-slider-wrap">
+                               <img src={destinations3Img} alt="" className="img-fluid" />
+                               <div className="pakage-overlay">
+                                   <strong>Sindh</strong>
+                               </div>
+                           </div>
+                       </div>
+                       <div className="col-lg-9 col-md-9">
+                           <OwlCarousel className="row owl-carousel destinations-1"  {...destinationsOptions}>
+                               <div className="package-card">
+                                   <div className="package-thumb">
+                                       <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+                                           <img src={destinations11Img} alt="" className="img-fluid" />
+                                       </Link>
+                                   </div>
+                                   <div className="package-details">
+                                       <div className="package-info">
+                                           <h5><span>6000PKR</span>/Per Person</h5>
+                                       </div>
+                                       <h3><i className="flaticon-arrival" />
+                                           <Link to={`${process.env.PUBLIC_URL}/package-details`}>Karachi</Link>
+                                       </h3>
+                                       <div className="package-rating">
+                                           <i className="bx bxs-star" />
+                                           <strong><span>1.3K+</span> Rating</strong>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div className="package-card">
+                                   <div className="package-thumb">
+                                       <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+                                           <img src={destinations5Img} alt="" className="img-fluid" />
+                                       </Link>
+                                   </div>
+                                   <div className="package-details">
+                                       <div className="package-info">
+                                           <h5><span>5000PKR</span>/Per Person</h5>
+                                       </div>
+                                       <h3><i className="flaticon-arrival" />
+                                           <Link to={`${process.env.PUBLIC_URL}/package-details`}>Hyderabad</Link>
+                                       </h3>
+                                       <div className="package-rating">
+                                           <i className="bx bxs-star" />
+                                           <strong><span>1.3K+</span> Rating</strong>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div className="package-card">
+                                   <div className="package-thumb">
+                                       <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+                                           <img src={destinations9Img} alt="" className="img-fluid" />
+                                       </Link>
+                                   </div>
+                                   <div className="package-details">
+                                       <div className="package-info">
+                                           <h5><span>3500PKR</span>/Per Person</h5>
+                                       </div>
+                                       <h3><i className="flaticon-arrival" />
+                                           <Link to={`${process.env.PUBLIC_URL}/package-details`}>Thatta</Link>
+                                       </h3>
+                                       <div className="package-rating">
+                                           <i className="bx bxs-star" />
+                                           <strong><span>1.3K+</span> Rating</strong>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div className="package-card">
+                                   <div className="package-thumb">
+                                       <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+                                           <img src={destinations4Img} alt="" className="img-fluid" />
+                                       </Link>
+                                   </div>
+                                   <div className="package-details">
+                                       <div className="package-info">
+                                           <h5><span></span>/Per Person</h5>
+                                       </div>
+                                       <h3>
+                                           <i className="flaticon-arrival" />
+                                           <Link to={`${process.env.PUBLIC_URL}/package-details`}>sukkur</Link>
+                                       </h3>
+                                       <div className="package-rating">
+                                           <i className="bx bxs-star" />
+                                           <strong><span>1.3K+</span> Rating</strong>
+                                       </div>
+                                   </div>
+                               </div>
+                           </OwlCarousel>
+                       </div>
+                   </div>
+
           <div className="row">
             <div className="col-lg-3 col-md-3">
               <div className="package-slider-wrap">
@@ -89,6 +370,9 @@ const AboutUs = () => {
                       />
                     </Link>
                   </div>
+
+
+
                   <div className="package-details">
                     <div className="package-info">
                       <h5>
@@ -547,6 +831,8 @@ const AboutUs = () => {
                   </div>
                 </div>
 
+
+
                 <div className="package-card">
                   <div className="package-thumb">
                     <Link to={`${process.env.PUBLIC_URL}/package-details`}>
@@ -610,6 +896,9 @@ const AboutUs = () => {
                 </div>
               </OwlCarousel>
             </div>
+
+
+
             <div className="col-lg-3 col-md-3">
               <div className="package-slider-wrap">
                 <img src={destinations2Img} alt="" className="img-fluid" />
@@ -753,6 +1042,7 @@ const AboutUs = () => {
                     </div>
                   </div>
                 </div>
+                
               </OwlCarousel>
             </div>
           </div>

@@ -63,7 +63,7 @@ class MainBanner extends Component {
                         <div className="container">
                             <div className="slider-content wow fadeInLeft animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <h2>Amazing Tour In
-                                    Hampshire </h2>
+                                    Kashmir </h2>
                                 <h5>7 Days, 8 Night Tour</h5>
                                 <div className="banner-btn">
                                     <Link to={`${process.env.PUBLIC_URL}/package`} className="btn-common">Book Now</Link>
@@ -75,7 +75,7 @@ class MainBanner extends Component {
                         <div className="container">
                             <div className="slider-content wow fadeInLeft animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <h2>Amazing Tour In
-                                    Indonesia </h2>
+                                    Pakistan </h2>
                                 <h5>7 Days, 8 Night Tour</h5>
                                 <div className="banner-btn">
                                     <Link to={`${process.env.PUBLIC_URL}/destination`} className="btn-common">Book Now</Link>
@@ -87,7 +87,7 @@ class MainBanner extends Component {
                         <div className="container">
                             <div className="slider-content wow fadeInLeft animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <h2>Amazing Tour In
-                                    madagascar </h2>
+                                    Gilgit Baltistan </h2>
                                 <h5>7 Days, 8 Night Tour</h5>
                                 <div className="banner-btn">
                                     <Link to={`${process.env.PUBLIC_URL}/package`} className="btn-common">Book Now</Link>

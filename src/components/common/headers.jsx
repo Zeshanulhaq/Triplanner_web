@@ -25,7 +25,7 @@ const Headers = () => {
                 <ul>
                   <li>
                     <i className="bx bxs-phone" />
-                    <a href="tel:+17632275032">+92 3068484188</a>
+                    <a href="tel:+92 3068484188">+92 3068484188</a>
                   </li>
 
                   <li>
