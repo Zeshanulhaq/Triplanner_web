@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { CssBaseline, Grid } from "@material-ui/core";
 
-import { getPlacesData } from "../../../api/travelAdvisorAPI";
-import Header from "../Traval/Header/Header";
-import List from "../Traval/List/List";
-import Map from "../Traval/Map/Map";
+import { getPlacesData } from "../../api/travelAdvisorAPI";
+// import Header from "./Traval/Header/Header";
+import List from "./Traval/List/List";
+import Map from "./Traval/Map/Map";
 
 const Traval = () => {
-  const [type, setType] = useState("restaurants");
+  const [type, setType] = useState("hotels");
   const [rating, setRating] = useState("");
 
   const [coords, setCoords] = useState({});
@@ -18,7 +18,7 @@ const Traval = () => {
 
   const [places, setPlaces] = useState([]);
 
-  const [autocomplete, setAutocomplete] = useState(null);
+  // const [autocomplete, setAutocomplete] = useState(null);
   const [childClicked, setChildClicked] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -66,10 +66,10 @@ const Traval = () => {
     <>
       <CssBaseline />
       <Grid spacing={3}>
-        <Header
+        {/* <Header
           setCoords={setCoords}
           //  onPlaceChanged={onPlaceChanged} onLoad={onLoad}
-        />
+        /> */}
         <Grid container spacing={3} style={{ width: "100%" }}>
           <Grid item xs={12} md={4}>
             <List

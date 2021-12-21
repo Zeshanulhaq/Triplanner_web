@@ -26,7 +26,7 @@ const PlaceDetails = ({ places, selected, refProp }) => {
         style={{ height: 350 }}
         image={
           places.photo
-            ? places.photo.images.large.url
+            ? places.photo.images.medium.url
             : "https://www.foodserviceandhospitality.com/wp-content/uploads/2016/09/Restaurant-Placeholder-001.jpg"
         }
         title={places.name}

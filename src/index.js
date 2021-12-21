@@ -13,7 +13,9 @@ import Layout from "./components/app";
 
 //Import all page from components
 import aboutUs from "./components/pages/about-us/AboutUs";
-import destinations from "./components/pages/destinations/Destinations";
+import destinations from "./components/pages/Destinations";
+
+import Restorants from "./components/pages/Restorants";
 import packages from "./components/pages/package/Packages";
 import contact from "./components/pages/contact/Contact";
 import faq from "./components/pages/faq/Faq";
@@ -23,8 +25,9 @@ import gallary from "./components/pages/gallary/GalleryComponent";
 import packageDetails from "./components/pages/package/PackageDetails";
 import SignIn from "./components/pages/Account/SignIn";
 import Signup from "./components/pages/Account/Signup";
+import hottels from "./components/pages/hottels";
 
-import Traval from "./components/pages/Traval/Traval";
+import Traval from "./components/pages/Traval";
 
 //this is a comment
 //Initializations All Css
@@ -56,6 +59,14 @@ class Root extends React.Component {
             <Route
               path={`${process.env.PUBLIC_URL}/destination`}
               component={destinations}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/Restorants`}
+              component={Restorants}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/hottels`}
+              component={hottels}
             />
             <Route
               path={`${process.env.PUBLIC_URL}/package`}

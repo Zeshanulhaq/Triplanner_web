@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import { Autocomplete } from "@react-google-maps/api";
+
 import { Link, NavLink } from "react-router-dom";
 // import {Autocomplete} from '@react-google-maps/api';
 
@@ -6,12 +8,22 @@ import { Link, NavLink } from "react-router-dom";
 import logoMain from "../../assets/images/Triplanner.png";
 import secondLogo from "../../assets/images/Triplanner2.png";
 
-const Headers = () => {
+const Headers = ({ setCoords }) => {
   const scrollTop = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
+  };
+  const [autocomplete, setautocomplete] = useState(null);
+
+  const onLoad = (autoC) => setautocomplete(autoC);
+
+  const onPlaceChanged = () => {
+    const lat = autocomplete.getPlace().geometry.location.lat();
+    const lng = autocomplete.getPlace().geometry.location.lng();
+
+    setCoords({ lat, lng });
   };
 
   return (
@@ -147,14 +159,42 @@ const Headers = () => {
                         About us
                       </NavLink>
                     </li>
-                    <li>
-                      <NavLink
-                        activeClassName="active"
-                        to={`${process.env.PUBLIC_URL}/destination`}
-                        onClick={scrollTop}
-                      >
-                        Destinations
-                      </NavLink>
+                    <li className="has-child-menu">
+                      <Link to={"#"}>Services</Link>
+                      <i className="fl flaticon-plus">+</i>
+                      <ul className="sub-menu">
+                        <li>
+                          <NavLink
+                            activeClassName="active"
+                            to={`${process.env.PUBLIC_URL}/destination`}
+                            className="sub-item"
+                            onClick={scrollTop}
+                          >
+                            Destinations
+                          </NavLink>
+                        </li>
+
+                        <li>
+                          <NavLink
+                            activeClassName="active"
+                            to={`${process.env.PUBLIC_URL}/hottels`}
+                            className="sub-item"
+                            onClick={scrollTop}
+                          >
+                            hotels
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            activeClassName="active"
+                            to={`${process.env.PUBLIC_URL}/restorants`}
+                            className="sub-item"
+                            onClick={scrollTop}
+                          >
+                            restorants
+                          </NavLink>
+                        </li>
+                      </ul>
                     </li>
                     <li className="has-child-menu">
                       <Link to={"#"}>Tour Package</Link>
@@ -185,7 +225,7 @@ const Headers = () => {
                     </li>
 
                     <li className="has-child-menu">
-                      <Link to={"#"}>Pages</Link>
+                      <Link to={"#"}>Others</Link>
                       <i className="fl flaticon-plus">+</i>
                       <ul className="sub-menu">
                         <li>
@@ -195,10 +235,10 @@ const Headers = () => {
                             className="sub-item"
                             onClick={scrollTop}
                           >
-                            gallary page
+                            gallary
                           </NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                           <NavLink
                             activeClassName="active"
                             to={`${process.env.PUBLIC_URL}/guide`}
@@ -207,8 +247,8 @@ const Headers = () => {
                           >
                             guide page
                           </NavLink>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                           <NavLink
                             activeClassName="active"
                             to={`${process.env.PUBLIC_URL}/destination`}
@@ -217,8 +257,8 @@ const Headers = () => {
                           >
                             destination page
                           </NavLink>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                           <NavLink
                             activeClassName="active"
                             to={`${process.env.PUBLIC_URL}/404`}
@@ -227,7 +267,7 @@ const Headers = () => {
                           >
                             404 Page
                           </NavLink>
-                        </li>
+                        </li> */}
                         <li>
                           <NavLink
                             activeClassName="active"
@@ -297,7 +337,7 @@ const Headers = () => {
             </div>
           </div>
 
-          <form>
+          <Autocomplete onLoad={onLoad} onPlaceChanged={onPlaceChanged}>
             <div className="main-searchbar">
               <div className="searchbar-close">
                 <i className="bx bx-x" />
@@ -307,7 +347,7 @@ const Headers = () => {
                 <i className="bx bx-search" />
               </div>
             </div>
-          </form>
+          </Autocomplete>
         </div>
       </header>
       {/* ===============  header area end =============== */}
