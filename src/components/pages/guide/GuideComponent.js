@@ -46,8 +46,8 @@ const GuideComponent = () => {
                 <div className="guide-thumb">
                   <img src={guide2Img} alt="" className="img-fluid" />
                   <div className="guide-info">
-                    <strong>Sakura Chen</strong>
-                    <p>Tour Guide</p>
+                    <strong>Shafqat Nawaz</strong>
+                    <p>Local Tour Guide</p>
                     <ul className="guide-links">
                       <li>
                         <Link to={"#"}>
@@ -79,8 +79,8 @@ const GuideComponent = () => {
                 <div className="guide-thumb">
                   <img src={guide3Img} alt="" className="img-fluid" />
                   <div className="guide-info">
-                    <strong>Sakura Chen</strong>
-                    <p>Tour Guide</p>
+                    <strong>Saira baig</strong>
+                    <p>Local Tour Guide</p>
                     <ul className="guide-links">
                       <li>
                         <Link to={"#"}>
@@ -112,8 +112,8 @@ const GuideComponent = () => {
                 <div className="guide-thumb">
                   <img src={guide4Img} alt="" className="img-fluid" />
                   <div className="guide-info">
-                    <strong>Sakura Chen</strong>
-                    <p>Tour Guide</p>
+                    <strong>john</strong>
+                    <p>International Tour Guide</p>
                     <ul className="guide-links">
                       <li>
                         <Link to={"#"}>
@@ -145,7 +145,7 @@ const GuideComponent = () => {
                 <div className="guide-thumb">
                   <img src={guide5Img} alt="" className="img-fluid" />
                   <div className="guide-info">
-                    <strong>Sakura Chen</strong>
+                    <strong>gorge</strong>
                     <p>Tour Guide</p>
                     <ul className="guide-links">
                       <li>
@@ -178,7 +178,7 @@ const GuideComponent = () => {
                 <div className="guide-thumb">
                   <img src={guide6Img} alt="" className="img-fluid" />
                   <div className="guide-info">
-                    <strong>Sakura Chen</strong>
+                    <strong>Zunair Kambokh</strong>
                     <p>Tour Guide</p>
                     <ul className="guide-links">
                       <li>
@@ -211,7 +211,7 @@ const GuideComponent = () => {
                 <div className="guide-thumb">
                   <img src={guide7Img} alt="" className="img-fluid" />
                   <div className="guide-info">
-                    <strong>Sakura Chen</strong>
+                    <strong>Ben martin</strong>
                     <p>Tour Guide</p>
                     <ul className="guide-links">
                       <li>
@@ -244,7 +244,7 @@ const GuideComponent = () => {
                 <div className="guide-thumb">
                   <img src={guide8Img} alt="" className="img-fluid" />
                   <div className="guide-info">
-                    <strong>Sakura Chen</strong>
+                    <strong>Eva Zu Back</strong>
                     <p>Tour Guide</p>
                     <ul className="guide-links">
                       <li>
@@ -310,7 +310,7 @@ const GuideComponent = () => {
                 <div className="guide-thumb">
                   <img src={guide10Img} alt="" className="img-fluid" />
                   <div className="guide-info">
-                    <strong>Sakura Chen</strong>
+                    <strong>Rohanadym</strong>
                     <p>Tour Guide</p>
                     <ul className="guide-links">
                       <li>
@@ -343,7 +343,7 @@ const GuideComponent = () => {
                 <div className="guide-thumb">
                   <img src={guide11Img} alt="" className="img-fluid" />
                   <div className="guide-info">
-                    <strong>Sakura Chen</strong>
+                    <strong>nobra</strong>
                     <p>Tour Guide</p>
                     <ul className="guide-links">
                       <li>
@@ -376,8 +376,8 @@ const GuideComponent = () => {
                 <div className="guide-thumb">
                   <img src={guide12Img} alt="" className="img-fluid" />
                   <div className="guide-info">
-                    <strong>Sakura Chen</strong>
-                    <p>Tour Guide</p>
+                    <strong>Ataturk Arboretum</strong>
+                    <p>Tour Guide from Turkey</p>
                     <ul className="guide-links">
                       <li>
                         <Link to={"#"}>

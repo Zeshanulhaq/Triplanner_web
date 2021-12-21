@@ -241,12 +241,9 @@ class Footers extends Component {
                   <div className="footer-logo">
                     <img src={secondLogo} alt="" className="img-fluid" />
                   </div>
-                  <p>
-                    The only Tripadvisor app you need for your trips and tours
-                    The only Tripadvisor app you need for your trips and tours
-                    The only Tripadvisor app you need for your trips and tours
-                    The only Tripadvisor app you need for your trips and tours
-                    The only Tripadvisor app you need for your trips and tours
+                  <p>Trip Planer means hospitality and caring for the guests. It is a curated marketplace of travel and experiences.
+Our vision revolves around sustainable and eco-friendly tourism and our experts spend months designing a community model that promotes sustainable travel in Pakistan.
+We make sure that whatever you spend with us creates a positive impact towards those in need; something which is at the heart of our ideology at Trip Planner.
                   </p>
                   <div className="footer-social-icons">
                     <h5>Follow Us:</h5>
@@ -285,8 +282,8 @@ class Footers extends Component {
                           <i className="bx bx-phone" />
                         </span>
                         <div>
-                          <a href="tel:+01852-1265122">+01852-1265122</a>
-                          <a href="tel:+01852-1265122">+01852-1265122</a>
+                          <a href="tel:+01852-1265122">+92 1234567</a>
+                          <a href="tel:+01852-1265122">+92 1234567</a>
                         </div>
                       </div>
                       <div className="contact-box">
@@ -294,9 +291,9 @@ class Footers extends Component {
                           <i className="bx bx-mail-send" />
                         </span>
                         <div>
-                          <a href="mailto:info@example.com">info@example.com</a>
+                          <a href="mailto:info@example.com">MSAZUH@example.com</a>
                           <a href="mailto:support@example.com">
-                            support@example.com
+                            sunny@example.com
                           </a>
                         </div>
                       </div>
@@ -306,8 +303,8 @@ class Footers extends Component {
                         </span>
                         <div>
                           <Link to={"#"}>
-                            2752 Willison Street <br />
-                            Eagan, United State
+                            Comsat university Islamabad <br />
+                            Wah Campus
                           </Link>
                         </div>
                       </div>

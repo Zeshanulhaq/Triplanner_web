@@ -32,22 +32,17 @@ const AboutWrapper = (props) => {
                        <div className="col-lg-5 col-md-12">
                            <div className="about-wrapper-right section-head head-left">
                                <h5>About TourX</h5>
-                               <h2>The Best Travel Agency
-                                   Company.</h2>
-                               <p>Fusce aliquam luctus est, eget tincidunt velit scelerisque
-                                   rhoncus. Aliquam lacinia ipsum ornare, porttitor risus nec,
-                                   mattis mauris. Nunc nec ornare nisi, vel elementum est.
-                                   Proin malesuada venenatis ex, eu fringilla justo scelerisque
-                                   sit amet. Sed fringilla nec purus non venenatis. Aliquam
-                                   nec turpis pharetra, bibendum lorem in, sollicitudin nibh.
-                                   Nulla sit amet lacus diam.</p>
+                               <h2>Trip Planner is the Best Travel Agency</h2>
+                               <p>Everyone will be able to use it because of its compatibility with every device and it is free of cost. 
+                                   So almost we have worked on everything we have proposed in our proposal.
+                                    The system is designed quite flexibly and efficiently keeping in view the user’s requirements. 
+                                    With this project, there would be easy to perform the respective tasks..</p>
                                <ul className="about-list">
-                                   <li><i className="flaticon-double-checking" /> Donec viverra orci On a</li>
-                                   <li><i className="flaticon-double-checking" /> Donec viverra orci On a</li>
-                                   <li><i className="flaticon-double-checking" /> Donec viverra orci On a</li>
-                                   <li><i className="flaticon-double-checking" /> Donec viverra orci On a</li>
-                                   <li><i className="flaticon-double-checking" /> Donec viverra orci On a</li>
-                                   <li><i className="flaticon-double-checking" /> Donec viverra orci On a</li>
+                                   <li><i className="flaticon-double-checking" /> 	The purpose is to design a system using which one can perform all operations related to planning a trip.</li>
+                                   <li><i className="flaticon-double-checking" />The system is a web-based application and maintains a centralized 
+                                   repository of all related information.</li>
+                                   <li><i className="flaticon-double-checking" />The system allows one to easily access the relevant information 
+                                   and make necessary travel arrangements.</li>
                                </ul>
                                <div className="about-wrapper-btn">
                                    <Link to={"#"} className="btn-common">Read More</Link>
