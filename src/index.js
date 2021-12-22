@@ -20,9 +20,14 @@ import packages from "./components/pages/package/Packages";
 import contact from "./components/pages/contact/Contact";
 import faq from "./components/pages/faq/Faq";
 import error from "./components/pages/404/404";
-import guide from "./components/pages/guide/GuideComponent";
+//import guide from "./components/pages/guide/GuideComponent";
 import gallary from "./components/pages/gallary/GalleryComponent";
 import packageDetails from "./components/pages/package/PackageDetails";
+import PackageDetails1 from "./components/pages/package/PackageDetails1";
+import PackageDetails2 from "./components/pages/package/PackageDetails2";
+import PackageDetails4 from "./components/pages/package/PackageDetails4";
+import PackageDetails5 from "./components/pages/package/PackageDetails5";
+
 import SignIn from "./components/pages/Account/SignIn";
 import Signup from "./components/pages/Account/Signup";
 import hottels from "./components/pages/hottels";
@@ -76,9 +81,25 @@ class Root extends React.Component {
               path={`${process.env.PUBLIC_URL}/package-details`}
               component={packageDetails}
             />
+            <Route
+              path={`${process.env.PUBLIC_URL}/package-details1`}
+              component={PackageDetails1}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/package-details2`}
+              component={PackageDetails2}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/package-details4`}
+              component={PackageDetails4}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/package-details5`}
+              component={PackageDetails5}
+            />
             <Route path={`${process.env.PUBLIC_URL}/faq`} component={faq} />
             <Route path={`${process.env.PUBLIC_URL}/404`} component={error} />
-            <Route path={`${process.env.PUBLIC_URL}/guide`} component={guide} />
+          {/* <Route path={`${process.env.PUBLIC_URL}/guide`} component={guide} /> */}
             <Route
               path={`${process.env.PUBLIC_URL}/gallary`}
               component={gallary}

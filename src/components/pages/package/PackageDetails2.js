@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {Link} from "react-router-dom";
 
-import pd_thumb from "../../../assets/images/package/pd-thumb.png"
+import pd_thumb from "../../../assets/images/package/p-3.png"
 import pr_1 from "../../../assets/images/package/pr-1.png"
 import gallery1Img from "../../../assets/images/gallary/gl-1.png"
 import gallery2Img from "../../../assets/images/gallary/gl-2.png"
@@ -85,9 +85,9 @@ class PackageDetails extends Component {
                                 </div>
                                 <div className="package-header">
                                     <div className="package-title">
-                                        <h3>Taxila Sites & Monuments</h3>
+                                        <h3>Muzzaffrabad</h3>
                                         <strong><i className="flaticon-arrival" />
-                                            Taxila Punjab, Pakistan
+                                            Azaad Jammu Kashmir, Pakistan
                                         </strong>
                                     </div>
                                     <div className="pd-review">
@@ -155,38 +155,38 @@ class PackageDetails extends Component {
                                                     <div className="tab-content-1">
                                                         <div className="p-overview">
                                                             <h5>Overview</h5>
-                                                            <p>Taxila (Urdu: ??????), is a city in Rawalpindi District of the Punjab, Pakistan. Taxila is situated about 32 km (20 mi) north-west of Islamabad and Rawalpindi, along the historic Grand Trunk Road, near the important Sikh pilgrimage centre of Hasan Abdal, and the Mughal-era Wah Gardens.
+                                                            <p>The capital of the Azad Jammu & Kashmir is situated at the confluence of the Jhelum & Neelum rivers. It is 138 kms from Rawalpindi and about 76 kms from Abbottabad. The present name of Muzaffarabad has been given to it after the denomination of Sultan Muzaffar Khan, a chief of Bomba Dynasty (1652). There are two forts, namely, Red & Ebony Fort, situated on the antithesis sides of river Neelum. The Neelum river streams through the town, joins river Jhelum at Domel and plays an ascendant role in the micro climate of Muzaffarabad.Places of interest in and around Muzaffarabad are: Pir Channasi, Shaheed Gali and Patika.</p>
+                                                           <h3> Attraction point</h3>
+                                                                    <p>What you will be doing</p>
+                                                                    <p>•	Pir Channasi</p>
+                                                                    <p> •	Shaheed Gali </p>
+                                                                    <p>•	Neelum River</p>
+                                                                   <p>•	Dhani waterfall</p>
 
-Ancient Taxila was historically referred to as Takshashila in Sanskrit, and Takkasila in Pali. The earliest settlement at Taxila was founded around 1000 BCE at the Hathial site. The Hindu epic poem Mah?bh?rata is believed to have been first recited at Taxila, by the sage Vai?amp?yana. By some accounts, Taxila was home to one of the earliest, if not the first, universities in the world.
 
-Taxila’s ruins are internationally renowned, and function as a series of interrelated sites, including a Mesolithic cave, the remains of 4 ancient cities, and Buddhist monasteries and stupas. The ancient ruins of Taxila were declared a UNESCO World Heritage Site in 1980.</p>
 
-                                                            <h3>Geography</h3>
-                                                            <p>Taxila is located 32 km (20 mi) north-west of the Pakistani capital Islamabad. The city is located approximately 549 meters (1,801 ft) above sea level..</p>
-                                                            <h3>Industry</h3>
-                                                            <p>Taxila is home to Heavy Industries Taxila, a major Pakistani defence, military contractor, engineering conglomerate. The city’s economy is also closely linked to the large Pakistan Ordnance Factories at nearby Wah Cantt, which employs 27,000 people. Cottage and household industries include stoneware, pottery and footwear.</p>
-                                                            <h3>Distance from Main Cities</h3>
-                                                            <p> Islamabad/Rawalpindi = 35KM </p>
-                                                            <p> Lahore = 378KM  </p>
-                                                            <p> Peshawar = 156KM </p>
-                                                            <p> Karachi = 1412KM </p>         
+                                                            <h3>
+                                                                Distance From Main Cities
+                                                                </h3>
+                                                                <p>Islamabad/Rawalpindi = 125KM</p>
+                                                                <p>Peshawar = 279KM</p>
+                                                                <p>Lahore = 549KM</p>
+        
                                           
                                                         </div>
                                                         <div className="p-highlight">
                                                             <h5>Transportation</h5>
                                                             <ul>
-                                                            <h3>Rail</h3>
-Taxila is served by the Taxila Cantonment Junction railway station. Taxila Junction is served by the Karachi–Peshawar Railway Line, and is the southern terminus of the Khunjerab Railway, which connects Taxila to the Havelian railway station. A planned extension of the railway will eventually connect Taxila to China’s Southern Xinjiang Railway in Kashgar, as part of the China–Pakistan Economic Corridor.
+                                                            <h3>Rail</h3>In this region Rail not Avaliable
+                                                                        <h3>Road</h3>
+                                                                        Buses and minibuses make the scenic journey regularly from Islamabad (4-5 hours).
+                                                                        If you’re self-driving, the route via Murree is probably the quickest. Kohala is the entry point into Azad Kashmir, where you’ll need to get through a checkpoint.
+                                                                        On your own transport you need an hour minutes to reach Murree. After Murree the road becomes thin and winding (and very scenic). Give yourself 2 hours to reach Kohala Bridge and another hour to reach Muzaffarabad. Its approximately 4 hours in your own car. The road is in the process of repair/upgrading so there are slow, unpaved and bumpy sections. Driving this route in daylight, especially for your first time, is highly recommended.
+                                                                        You can adopt the route Islamabad – Abbottabad – Mansehra – Gari Habibullah – Muzaffabad as well.
 
-<h3>Road</h3>
-The M-1 Motorway, pictured near Taxila, links the city to Islamabad and Peshawar.
-
-The ancient Grand Trunk Road is designated as N-5 National Highway, and connects the city to the Afghan border, and northern Punjab. The Karakoram Highway’s southern terminus is in nearby Hasan Abdal, and connects Taxila to the Chinese border near the Hunza Valley.
-
-The city is linked to Peshawar and Islamabad by the M-1 Motorway, which in turn offers wider motorway access to Lahore via the M-2 Motorway, and Faisalabad via the M-4 Motorway.
-
-<h3>Air</h3>
-The nearest airport to Taxila is Islamabad International Airport located 36.5 kilometers away. Peshawar’s Bacha Khan International Airport is 155 kilometers away.</ul>
+                                                        <h3>Air</h3>
+                                                        The small domestic airport is currently not receiving flights.
+                                                        </ul>
                                                         </div>
                                                         <div className="p-details-table">
                                                             <table className="table caption-top">

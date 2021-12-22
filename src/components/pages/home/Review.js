@@ -67,8 +67,10 @@ const Review = () => {
                 <h3>Tamina sheikh</h3>
                 <h5>Traveller</h5>
                 <p>
-                It was a very nice experience to travel through Trip Planner i would like to suggest it to my friends who would like to come and experience such a pleseant journey..{" "}
-                </p>
+                It was a very nice experience to travel through
+                Trip Planner i would like to suggest it to my friends who
+                would like to come and experience such a pleseant journey
+                  </p>
               </div>
             </div>
             <div className="review-card">
@@ -79,9 +81,7 @@ const Review = () => {
                 <h3>Abdul wahab</h3>
                 <h5>Traveller</h5>
                 <p>
-                It was a very nice experience to travel through
-                 Trip Planner i would like to suggest it to my friends who
-                  would like to come and experience such a pleseant journey..{" "}
+                It was a very nice experience and informative.{" "}
                 </p>
               </div>
             </div>
@@ -93,9 +93,7 @@ const Review = () => {
                 <h3>Muhammad Irfan</h3>
                 <h5>Traveller</h5>
                 <p>
-                It was a very nice experience to travel through
-                 Trip Planner i would like to suggest it to my friends who
-                  would like to come and experience such a pleseant journey.{" "}
+                Loves the way to explore such an amazing things.{" "}
                 </p>
               </div>
             </div>
@@ -107,9 +105,7 @@ const Review = () => {
                 <h3>Sara Irfan</h3>
                 <h5>Traveller</h5>
                 <p>
-                It was a very nice experience to travel through
-                 Trip Planner i would like to suggest it to my friends who
-                  would like to come and experience such a pleseant journey..{" "}
+                almost good but still some things needs to work on i hope better experience next time.{" "}
                 </p>
               </div>
             </div>
@@ -121,9 +117,7 @@ const Review = () => {
                 <h3>Raja Irfan</h3>
                 <h5>Traveller</h5>
                 <p>
-                It was a very nice experience to travel through
-                 Trip Planner i would like to suggest it to my friends who
-                  would like to come and experience such a pleseant journey..{" "}
+                it feels awesome.{" "}
                 </p>
               </div>
             </div>
@@ -135,9 +129,7 @@ const Review = () => {
                 <h3>Waqas Ali</h3>
                 <h5>Traveller</h5>
                 <p>
-                It was a very nice experience to travel through
-                 Trip Planner i would like to suggest it to my friends who
-                  would like to come and experience such a pleseant journey...{" "}
+                Good site to explore such an amazing sites to visit i really recommend it to others.{" "}
                 </p>
               </div>
             </div>
@@ -149,9 +141,7 @@ const Review = () => {
                 <h3>Sidra baig</h3>
                 <h5>Traveller</h5>
                 <p>
-                It was a very nice experience to travel through
-                 Trip Planner i would like to suggest it to my friends who
-                  would like to come and experience such a pleseant journey..{" "}
+                its the platform where you can get to know about many things and history.{" "}
                 </p>
               </div>
             </div>

@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import {Link} from "react-router-dom";
-
-import pd_thumb from "../../../assets/images/package/pd-thumb.png"
-import pr_1 from "../../../assets/images/package/pr-1.png"
+import pr_1 from "../../../assets/images/destination/d-1.png"
 import gallery1Img from "../../../assets/images/gallary/gl-1.png"
 import gallery2Img from "../../../assets/images/gallary/gl-2.png"
 import gallery4Img from "../../../assets/images/gallary/gl-4.png"
@@ -11,19 +9,9 @@ import gallery6Img from "../../../assets/images/gallary/gl-6.png"
 import galleryGxx1Img from "../../../assets/images/gallary/g-xxl-1.png"
 import galleryGxx2Img from "../../../assets/images/gallary/g-xxl-2.png"
 import galleryGxx3Img from "../../../assets/images/gallary/g-xxl-3.png"
-import gallery17Img from "../../../assets/images/gallary/gl-17.png"
-import gallery16Img from "../../../assets/images/gallary/gl-16.png"
-import gallery14Img from "../../../assets/images/gallary/gl-14.png"
 import galleryGxl1Img from "../../../assets/images/gallary/g-xl-1.png"
 import galleryGxl2Img from "../../../assets/images/gallary/g-xl-2.png"
 import galleryGxl3Img from "../../../assets/images/gallary/g-xl-3.png"
-import galleryGxl4Img from "../../../assets/images/gallary/g-xl-4.png"
-import pm_sm_1  from "../../../assets/images/package/p-sm-1.png";
-import pm_sm_4  from "../../../assets/images/package/p-sm-4.png";
-import pm_sm_2  from "../../../assets/images/package/p-sm-2.png";
-import pm_sm_3  from "../../../assets/images/package/p-sm-3.png";
-import organizer  from "../../../assets/images/organizer.png";
-import sidebarBannar  from "../../../assets/images/sidebar-banner.png";
 import { SRLWrapper } from "simple-react-lightbox";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -81,13 +69,13 @@ class PackageDetails extends Component {
                         <div className="col-lg-8">
                             <div className="package-details">
                                 <div className="package-thumb">
-                                    <img src={pd_thumb} alt="" />
+                                    <img src={pr_1} alt="" />
                                 </div>
                                 <div className="package-header">
                                     <div className="package-title">
-                                        <h3>Taxila Sites & Monuments</h3>
+                                        <h3>Lahore</h3>
                                         <strong><i className="flaticon-arrival" />
-                                            Taxila Punjab, Pakistan
+                                            Punjab, Pakistan
                                         </strong>
                                     </div>
                                     <div className="pd-review">
@@ -154,40 +142,66 @@ class PackageDetails extends Component {
                                                 <div className="col-lg-12">
                                                     <div className="tab-content-1">
                                                         <div className="p-overview">
-                                                            <h5>Overview</h5>
-                                                            <p>Taxila (Urdu: ??????), is a city in Rawalpindi District of the Punjab, Pakistan. Taxila is situated about 32 km (20 mi) north-west of Islamabad and Rawalpindi, along the historic Grand Trunk Road, near the important Sikh pilgrimage centre of Hasan Abdal, and the Mughal-era Wah Gardens.
+                                                        <h5>Overview</h5>
+                                                            <p>Lahore - The Heart of Pakistan 
+"Jinnay Lahore nai vaikhya O Jamyya e nai" a folklore which means you haven't been born until you see Lahore!
+Food - People - Culture. That's Lahore! Ask for directions from any Lahori and most chances are that you both would end up having a light-hearted chat about anything the mood allows.
+Lahore, the capital of Punjab, is often called the "Cultural Capital of Pakistan". Lahore saw many dynasties and kings making it one of the richest cities both historically and culturally. The city witnessed Hindu Shahis, Ghaznavids, Ghurids, and Delhi Sultanate, but it reached the pinnacle of its splendor under the Mughal Empire. After the Mughals, Lahore became the capital of the Sikh Empire and finally became a part of the British Empire.
+This two-day tour will take you to magnificent historical places and lush green gardens. Travel back to the ancient Mughal times by visiting the 'Walled City' of Lahore, also known as the 'Old City'. Immerse yourself into Mughal architecture by visiting the artistically decorated 17th Century Wazir Khan Mosque. Explore Lahore Fort, a 16th-century fort founded by Mughal Emperor Akbar, which is also a UNESCO World Heritage Site. After enriching your senses with Lahore’s ancient history and architectural wonders, enjoy your dinner at the rooftop of a beautiful restaurant with traditional Lahori food in the famous Food Street.
+</p>
+<h3>What you will be doing</h3>
+-<p> Visit Walled City of Lahore</p>
+- <p>Visit the 17th Century Wazir Khan Mosque</p>
+-<p> Visit the Lahore Fort</p>
+- <p>Visit the famous Food Street</p>
 
-Ancient Taxila was historically referred to as Takshashila in Sanskrit, and Takkasila in Pali. The earliest settlement at Taxila was founded around 1000 BCE at the Hathial site. The Hindu epic poem Mah?bh?rata is believed to have been first recited at Taxila, by the sage Vai?amp?yana. By some accounts, Taxila was home to one of the earliest, if not the first, universities in the world.
+<h3>This tour is featured on Independence Day.</h3>
+<p>Pick-up and Drop-off Location
+We can pick you up from anywhere within Lahore in the morning. Please let us know by inbox message ahead of time about your location and we will meet you there. Similarly, at the end of the tour we can drop-off at your preferred location.
+</p>
+<h3>Got some Questions?</h3>
+<p>Send in your questions regarding this experience using our ‘Inbox’ feature, and we’ll get in touch to address your queries.</p>
+<h3>
+Distance From Main Cities
+</h3>
+<p>Islamabad/Rawalpindi = 375KM</p>
+<p>Peshawar = 517KM</p>
+<p>Karachi = 1211KM</p>
 
-Taxila’s ruins are internationally renowned, and function as a series of interrelated sites, including a Mesolithic cave, the remains of 4 ancient cities, and Buddhist monasteries and stupas. The ancient ruins of Taxila were declared a UNESCO World Heritage Site in 1980.</p>
-
-                                                            <h3>Geography</h3>
-                                                            <p>Taxila is located 32 km (20 mi) north-west of the Pakistani capital Islamabad. The city is located approximately 549 meters (1,801 ft) above sea level..</p>
-                                                            <h3>Industry</h3>
-                                                            <p>Taxila is home to Heavy Industries Taxila, a major Pakistani defence, military contractor, engineering conglomerate. The city’s economy is also closely linked to the large Pakistan Ordnance Factories at nearby Wah Cantt, which employs 27,000 people. Cottage and household industries include stoneware, pottery and footwear.</p>
-                                                            <h3>Distance from Main Cities</h3>
-                                                            <p> Islamabad/Rawalpindi = 35KM </p>
-                                                            <p> Lahore = 378KM  </p>
-                                                            <p> Peshawar = 156KM </p>
-                                                            <p> Karachi = 1412KM </p>         
+      
                                           
                                                         </div>
                                                         <div className="p-highlight">
                                                             <h5>Transportation</h5>
                                                             <ul>
                                                             <h3>Rail</h3>
-Taxila is served by the Taxila Cantonment Junction railway station. Taxila Junction is served by the Karachi–Peshawar Railway Line, and is the southern terminus of the Khunjerab Railway, which connects Taxila to the Havelian railway station. A planned extension of the railway will eventually connect Taxila to China’s Southern Xinjiang Railway in Kashgar, as part of the China–Pakistan Economic Corridor.
-
+                                                            <p>Lahore Junction Station serves as the main railway station for Lahore, and serves as a major hub for all Pakistan Railways services in northern Pakistan. It includes services to Peshawar and national capital Islamabad-Rawalpindi, and long-distance services to Karachi and Quetta. Lahore Cantonment Station also operates a few trains.</p>
 <h3>Road</h3>
-The M-1 Motorway, pictured near Taxila, links the city to Islamabad and Peshawar.
-
-The ancient Grand Trunk Road is designated as N-5 National Highway, and connects the city to the Afghan border, and northern Punjab. The Karakoram Highway’s southern terminus is in nearby Hasan Abdal, and connects Taxila to the Chinese border near the Hunza Valley.
-
-The city is linked to Peshawar and Islamabad by the M-1 Motorway, which in turn offers wider motorway access to Lahore via the M-2 Motorway, and Faisalabad via the M-4 Motorway.
+<p>There are a number of municipal, provincial and federal roads that serve Lahore. </p>
+<p>
+•	Municipal roads
+Canal Road (serves as the major north–south artery)
+•	Provincial highways
+Lahore Ring Road
+Lahore– Kasur Road (Ferozepur Road)
+Lahore –  Raiwind Road (Raiwind Road)
+Lahore–Sharaqpur Road (Sagianwala Bypass Road)
+Lahore–Wagah Road
+Grand Trunk Road (G.T Road )
+•	Federal highways
+M-2 motorway
+M-3 motorway
+M-11 motorway
+N-5 National Highway (Multan Road)
+N-60 National Highway (Sargodha–Lahore road)</p>
 
 <h3>Air</h3>
-The nearest airport to Taxila is Islamabad International Airport located 36.5 kilometers away. Peshawar’s Bacha Khan International Airport is 155 kilometers away.</ul>
-                                                        </div>
+<p>Further information: Allama Iqbal International Airport and Walton Airport</p>
+<p>Allama Iqbal International Airport
+Pakistan's third busiest airport, Allama Iqbal International Airport (IATA: LHE), straddles the city's eastern boundary. The new passenger terminal was opened in 2003, replacing the old terminal which now serves as a VIP and Hajj lounge. The airport was named after the national poet-philosopher, Muhammad Iqbaland is a secondary hub for the national flag carrier, Pakistan International Airlines. Walton Airport in Askari provides general aviation facilities. In addition, Sialkot International Airport (IATA: SKT) and Faisalabad International Airport (IATA: LYP) also serve as alternate airports for the Lahore area in addition to serving their respective cities.
+
+Allama Iqbal International Airport connects Lahore with many cities worldwide (including domestic destinations) by both passenger and cargo flight including Ras al Khaimah, Guangzhou (begins 28 August 2018),[164] Ürümqi,] Abu Dhabi, Barcelona, Beijing–Capital, Copenhagen, Dammam, Delhi, Dera Ghazi Khan, Doha, Dubai–International, Islamabad, Jeddah, Karachi, Kuala Lumpur–International, London–Heathrow, Manchester, Medina, Milan–Malpensa, Multan, Muscat, Oslo–Gardermoen, Paris–Charles de Gaulle, Peshawar, Quetta, Rahim Yar Khan, Riyadh, Salalah,Tokyo–Narita, Toronto–Pearson, Mashhad, Bangkok–Suvarnabhumi, and Tashkent.</p>
+                                                           </ul> </div>
                                                         <div className="p-details-table">
                                                             <table className="table caption-top">
                                                                 <tbody>

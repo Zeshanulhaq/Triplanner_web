@@ -44,442 +44,296 @@ const Packages = () => {
               </div>
             </div>
           </div>
+          {/* Start */}
 
           <div className="row">
-            <div
-              className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated"
-              data-wow-duration="1500ms"
-              data-wow-delay="0ms"
-            >
-              <div className="package-card">
-                <div className="package-thumb">
-                  <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                    <img src={package1Img} alt="" className="img-fluid" />
-                  </Link>
+
+            <div className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="0ms">
+             <div className="package-card">
+               <div className="package-thumb">
+                 <Link to={`${process.env.PUBLIC_URL}/package-details1`}>
+                  <img src={package1Img} alt="" className="img-fluid" />
+                      </Link>
                 </div>
                 <div className="package-details">
-                  <div className="package-info">
-                    <h5>
-                      <span>$180</span>/Per Person
-                    </h5>
-                    <h5>
-                      <i className="flaticon-calendar" />5 Days/6 night
-                    </h5>
-                  </div>
-                  <h3>
-                    <i className="flaticon-arrival" />
-                    <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                      Paris Hill Tour
-                    </Link>
-                  </h3>
-                  <div className="package-rating">
-                    <strong>
-                      <i className="bx bxs-star" />
-                      <span>8K+</span> Rating
-                    </strong>
-                  </div>
-                </div>
-              </div>
-            </div>
+              <div className="package-info">
+        <h5><span>1800PKR</span>/Per Person</h5>
+        <h5><i className="flaticon-calendar" />5 Days/6 night</h5>
+      </div>
+      <h3>
+        <i className="flaticon-arrival" />
+        <Link to={`${process.env.PUBLIC_URL}/package-details1`}>Taxila City</Link>
+      </h3>
+      <div className="package-rating">
+        <strong><i className="bx bxs-star" /><span>8K+</span> Rating</strong>
+      </div>
+    </div>
+  </div>
+</div>
 
-            <div
-              className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated"
-              data-wow-duration="1500ms"
-              data-wow-delay="300ms"
-            >
-              <div className="package-card">
-                <div className="package-thumb">
-                  <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                    <img src={package2Img} alt="" className="img-fluid" />
-                  </Link>
-                </div>
-                <div className="package-details">
-                  <div className="package-info">
-                    <h5>
-                      <span>$280</span>/Per Person
-                    </h5>
-                    <h5>
-                      <i className="flaticon-calendar" />5 Days/6 night
-                    </h5>
-                  </div>
-                  <h3>
-                    <i className="flaticon-arrival" />
-                    <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                      Lake Garda, Italy
-                    </Link>
-                  </h3>
-                  <div className="package-rating">
-                    <strong>
-                      <i className="bx bxs-star" />
-                      <span>8K+</span> Rating
-                    </strong>
-                  </div>
-                </div>
-              </div>
-            </div>
+<div className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="300ms">
+  <div className="package-card">
+    <div className="package-thumb">
+      <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+        <img src={package2Img} alt="" className="img-fluid" />
+      </Link>
+    </div>
+    <div className="package-details">
+      <div className="package-info">
+        <h5><span>3500PKR</span>/Per Person</h5>
+        <h5><i className="flaticon-calendar" />5 Days/6 night</h5>
+      </div>
+      <h3>
+        <i className="flaticon-arrival" />
+        <Link to={`${process.env.PUBLIC_URL}/package-details1`}>Lahore, Pakistan</Link>
+      </h3>
+      <div className="package-rating">
+        <strong><i className="bx bxs-star" /><span>8K+</span> Rating</strong>
+      </div>
+    </div>
+  </div>
+</div>
 
-            <div
-              className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated"
-              data-wow-duration="1500ms"
-              data-wow-delay="600ms"
-            >
-              <div className="package-card">
-                <div className="package-thumb">
-                  <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                    <img src={package3Img} alt="" className="img-fluid" />
-                  </Link>
-                </div>
-                <div className="package-details">
-                  <div className="package-info">
-                    <h5>
-                      <span>$120</span>/Per Person
-                    </h5>
-                    <h5>
-                      <i className="flaticon-calendar" />5 Days/6 night
-                    </h5>
-                  </div>
-                  <h3>
-                    <i className="flaticon-arrival" />
-                    <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                      Mount Dtna, Italyr
-                    </Link>
-                  </h3>
-                  <div className="package-rating">
-                    <strong>
-                      <i className="bx bxs-star" />
-                      <span>8K+</span> Rating
-                    </strong>
-                  </div>
-                </div>
-              </div>
-            </div>
+<div className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="600ms">
+  <div className="package-card">
+    <div className="package-thumb">
+      <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+        <img src={package3Img} alt="" className="img-fluid" />
+      </Link>
+    </div>
+    <div className="package-details">
+      <div className="package-info">
+        <h5><span>2500PKR</span>/Per Person</h5>
+        <h5><i className="flaticon-calendar" />5 Days/6 night</h5>
+      </div>
+      <h3>
+        <i className="flaticon-arrival" />
+        <Link to={`${process.env.PUBLIC_URL}/package-details`}>Muzaffarabad</Link>
+      </h3>
+      <div className="package-rating">
+        <strong><i className="bx bxs-star" /><span>8K+</span> Rating</strong>
+      </div>
+    </div>
+  </div>
+</div>
 
-            <div
-              className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated"
-              data-wow-duration="1500ms"
-              data-wow-delay="0ms"
-            >
-              <div className="package-card">
-                <div className="package-thumb">
-                  <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                    <img src={package4Img} alt="" className="img-fluid" />
-                  </Link>
-                </div>
-                <div className="package-details">
-                  <div className="package-info">
-                    <h5>
-                      <span>$300</span>/Per Person
-                    </h5>
-                    <h5>
-                      <i className="flaticon-calendar" />5 Days/6 night
-                    </h5>
-                  </div>
-                  <h3>
-                    <i className="flaticon-arrival" />
-                    <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                      Amalfi Costa, Italy
-                    </Link>
-                  </h3>
-                  <div className="package-rating">
-                    <strong>
-                      <i className="bx bxs-star" />
-                      <span>8K+</span> Rating
-                    </strong>
-                  </div>
-                </div>
-              </div>
-            </div>
+<div className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="0ms">
+  <div className="package-card">
+    <div className="package-thumb">
+      <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+        <img src={package4Img} alt="" className="img-fluid" />
+      </Link>
+    </div>
+    <div className="package-details">
+      <div className="package-info">
+        <h5><span>5000PKR</span>/Per Person</h5>
+        <h5><i className="flaticon-calendar" />5 Days/6 night</h5>
+      </div>
+      <h3>
+        <i className="flaticon-arrival" />
+        <Link to={`${process.env.PUBLIC_URL}/package-details`}>Rawalpindi</Link>
+      </h3>
+      <div className="package-rating">
+        <strong><i className="bx bxs-star" /><span>8K+</span> Rating</strong>
+      </div>
+    </div>
+  </div>
+</div>
 
-            <div
-              className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated"
-              data-wow-duration="1500ms"
-              data-wow-delay="300ms"
-            >
-              <div className="package-card">
-                <div className="package-thumb">
-                  <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                    <img src={package5Img} alt="" className="img-fluid" />
-                  </Link>
-                </div>
-                <div className="package-details">
-                  <div className="package-info">
-                    <h5>
-                      <span>$240</span>/Per Person
-                    </h5>
-                    <h5>
-                      <i className="flaticon-calendar" />5 Days/6 night
-                    </h5>
-                  </div>
-                  <h3>
-                    <i className="flaticon-arrival" />
-                    <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                      French Rivira, France
-                    </Link>
-                  </h3>
-                  <div className="package-rating">
-                    <strong>
-                      <i className="bx bxs-star" />
-                      <span>8K+</span> Rating
-                    </strong>
-                  </div>
-                </div>
-              </div>
-            </div>
+<div className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="300ms">
+  <div className="package-card">
+    <div className="package-thumb">
+      <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+        <img src={package5Img} alt="" className="img-fluid" />
+      </Link>
+    </div>
+    <div className="package-details">
+      <div className="package-info">
+        <h5><span>5000PKR</span>/Per Person</h5>
+        <h5><i className="flaticon-calendar" />5 Days/6 night</h5>
+      </div>
+      <h3>
+        <i className="flaticon-arrival" />
+        <Link to={`${process.env.PUBLIC_URL}/package-details`}>Karachi</Link>
+      </h3>
+      <div className="package-rating">
+        <strong><i className="bx bxs-star" /><span>8K+</span> Rating</strong>
+      </div>
+    </div>
+  </div>
+</div>
 
-            <div
-              className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated"
-              data-wow-duration="1500ms"
-              data-wow-delay="600ms"
-            >
-              <div className="package-card">
-                <div className="package-thumb">
-                  <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                    <img src={package6Img} alt="" className="img-fluid" />
-                  </Link>
-                </div>
-                <div className="package-details">
-                  <div className="package-info">
-                    <h5>
-                      <span>$145</span>/Per Person
-                    </h5>
-                    <h5>
-                      <i className="flaticon-calendar" />5 Days/6 night
-                    </h5>
-                  </div>
-                  <h3>
-                    <i className="flaticon-arrival" />
-                    <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                      Lake Geneva, France
-                    </Link>
-                  </h3>
-                  <div className="package-rating">
-                    <strong>
-                      <i className="bx bxs-star" />
-                      <span>8K+</span> Rating
-                    </strong>
-                  </div>
-                </div>
-              </div>
-            </div>
+<div className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="600ms">
+  <div className="package-card">
+    <div className="package-thumb">
+      <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+        <img src={package6Img} alt="" className="img-fluid" />
+      </Link>
+    </div>
+    <div className="package-details">
+      <div className="package-info">
+        <h5><span>4500PKR</span>/Per Person</h5>
+        <h5><i className="flaticon-calendar" />5 Days/6 night</h5>
+      </div>
+      <h3>
+        <i className="flaticon-arrival" />
+        <Link to={`${process.env.PUBLIC_URL}/package-details`}>SWAT</Link>
+      </h3>
+      <div className="package-rating">
+        <strong><i className="bx bxs-star" /><span>8K+</span> Rating</strong>
+      </div>
+    </div>
+  </div>
+</div>
 
-            <div
-              className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated"
-              data-wow-duration="1500ms"
-              data-wow-delay="0ms"
-            >
-              <div className="package-card">
-                <div className="package-thumb">
-                  <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                    <img src={package1Img} alt="" className="img-fluid" />
-                  </Link>
-                </div>
-                <div className="package-details">
-                  <div className="package-info">
-                    <h5>
-                      <span>$180</span>/Per Person
-                    </h5>
-                    <h5>
-                      <i className="flaticon-calendar" />5 Days/6 night
-                    </h5>
-                  </div>
-                  <h3>
-                    <i className="flaticon-arrival" />
-                    <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                      Paris Hill Tour
-                    </Link>
-                  </h3>
-                  <div className="package-rating">
-                    <strong>
-                      <i className="bx bxs-star" />
-                      <span>8K+</span> Rating
-                    </strong>
-                  </div>
-                </div>
-              </div>
-            </div>
+</div>
 
-            <div
-              className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated"
-              data-wow-duration="1500ms"
-              data-wow-delay="300ms"
-            >
-              <div className="package-card">
-                <div className="package-thumb">
-                  <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                    <img src={package2Img} alt="" className="img-fluid" />
-                  </Link>
-                </div>
-                <div className="package-details">
-                  <div className="package-info">
-                    <h5>
-                      <span>$280</span>/Per Person
-                    </h5>
-                    <h5>
-                      <i className="flaticon-calendar" />5 Days/6 night
-                    </h5>
-                  </div>
-                  <h3>
-                    <i className="flaticon-arrival" />
-                    <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                      Lake Garda, Italy
-                    </Link>
-                  </h3>
-                  <div className="package-rating">
-                    <strong>
-                      <i className="bx bxs-star" />
-                      <span>8K+</span> Rating
-                    </strong>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div
-              className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated"
-              data-wow-duration="1500ms"
-              data-wow-delay="600ms"
-            >
-              <div className="package-card">
-                <div className="package-thumb">
-                  <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                    <img src={package3Img} alt="" className="img-fluid" />
-                  </Link>
-                </div>
-                <div className="package-details">
-                  <div className="package-info">
-                    <h5>
-                      <span>$120</span>/Per Person
-                    </h5>
-                    <h5>
-                      <i className="flaticon-calendar" />5 Days/6 night
-                    </h5>
-                  </div>
-                  <h3>
-                    <i className="flaticon-arrival" />
-                    <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                      Mount Dtna, Italyr
-                    </Link>
-                  </h3>
-                  <div className="package-rating">
-                    <strong>
-                      <i className="bx bxs-star" />
-                      <span>8K+</span> Rating
-                    </strong>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div
-              className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated"
-              data-wow-duration="1500ms"
-              data-wow-delay="0ms"
-            >
-              <div className="package-card">
-                <div className="package-thumb">
-                  <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                    <img src={package4Img} alt="" className="img-fluid" />
-                  </Link>
-                </div>
-                <div className="package-details">
-                  <div className="package-info">
-                    <h5>
-                      <span>$300</span>/Per Person
-                    </h5>
-                    <h5>
-                      <i className="flaticon-calendar" />5 Days/6 night
-                    </h5>
-                  </div>
-                  <h3>
-                    <i className="flaticon-arrival" />
-                    <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                      Amalfi Costa, Italy
-                    </Link>
-                  </h3>
-                  <div className="package-rating">
-                    <strong>
-                      <i className="bx bxs-star" />
-                      <span>8K+</span> Rating
-                    </strong>
-                  </div>
-                </div>
-              </div>
-            </div>
+          {/* //old data */}
+          <div className="row">
 
-            <div
-              className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated"
-              data-wow-duration="1500ms"
-              data-wow-delay="300ms"
-            >
-              <div className="package-card">
-                <div className="package-thumb">
-                  <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                    <img src={package5Img} alt="" className="img-fluid" />
-                  </Link>
-                </div>
-                <div className="package-details">
-                  <div className="package-info">
-                    <h5>
-                      <span>$240</span>/Per Person
-                    </h5>
-                    <h5>
-                      <i className="flaticon-calendar" />5 Days/6 night
-                    </h5>
-                  </div>
-                  <h3>
-                    <i className="flaticon-arrival" />
-                    <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                      French Rivira, France
-                    </Link>
-                  </h3>
-                  <div className="package-rating">
-                    <strong>
-                      <i className="bx bxs-star" />
-                      <span>8K+</span> Rating
-                    </strong>
-                  </div>
-                </div>
-              </div>
-            </div>
+<div className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="0ms">
+ <div className="package-card">
+   <div className="package-thumb">
+     <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+      <img src={package1Img} alt="" className="img-fluid" />
+          </Link>
+    </div>
+    <div className="package-details">
+  <div className="package-info">
+<h5><span>1800PKR</span>/Per Person</h5>
+<h5><i className="flaticon-calendar" />5 Days/6 night</h5>
+</div>
+<h3>
+<i className="flaticon-arrival" />
+<Link to={`${process.env.PUBLIC_URL}/package-details`}>Taxila City</Link>
+</h3>
+<div className="package-rating">
+<strong><i className="bx bxs-star" /><span>8K+</span> Rating</strong>
+</div>
+</div>
+</div>
+</div>
 
-            <div
-              className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated"
-              data-wow-duration="1500ms"
-              data-wow-delay="600ms"
-            >
-              <div className="package-card">
-                <div className="package-thumb">
-                  <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                    <img src={package6Img} alt="" className="img-fluid" />
-                  </Link>
-                </div>
-                <div className="package-details">
-                  <div className="package-info">
-                    <h5>
-                      <span>$145</span>/Per Person
-                    </h5>
-                    <h5>
-                      <i className="flaticon-calendar" />5 Days/6 night
-                    </h5>
-                  </div>
-                  <h3>
-                    <i className="flaticon-arrival" />
-                    <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                      Lake Geneva, France
-                    </Link>
-                  </h3>
-                  <div className="package-rating">
-                    <strong>
-                      <i className="bx bxs-star" />
-                      <span>8K+</span> Rating
-                    </strong>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+<div className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="300ms">
+<div className="package-card">
+<div className="package-thumb">
+<Link to={`${process.env.PUBLIC_URL}/package-details`}>
+<img src={package2Img} alt="" className="img-fluid" />
+</Link>
+</div>
+<div className="package-details">
+<div className="package-info">
+<h5><span>3500PKR</span>/Per Person</h5>
+<h5><i className="flaticon-calendar" />5 Days/6 night</h5>
+</div>
+<h3>
+<i className="flaticon-arrival" />
+<Link to={`${process.env.PUBLIC_URL}/package-details1`}>Lahore, Pakistan</Link>
+</h3>
+<div className="package-rating">
+<strong><i className="bx bxs-star" /><span>8K+</span> Rating</strong>
+</div>
+</div>
+</div>
+</div>
 
-          {/* <div className="row">
+<div className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="600ms">
+<div className="package-card">
+<div className="package-thumb">
+<Link to={`${process.env.PUBLIC_URL}/package-details`}>
+<img src={package3Img} alt="" className="img-fluid" />
+</Link>
+</div>
+<div className="package-details">
+<div className="package-info">
+<h5><span>2500PKR</span>/Per Person</h5>
+<h5><i className="flaticon-calendar" />5 Days/6 night</h5>
+</div>
+<h3>
+<i className="flaticon-arrival" />
+<Link to={`${process.env.PUBLIC_URL}/package-details2`}>Muzaffarabad</Link>
+</h3>
+<div className="package-rating">
+<strong><i className="bx bxs-star" /><span>8K+</span> Rating</strong>
+</div>
+</div>
+</div>
+</div>
+
+<div className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="0ms">
+<div className="package-card">
+<div className="package-thumb">
+<Link to={`${process.env.PUBLIC_URL}/package-details`}>
+<img src={package4Img} alt="" className="img-fluid" />
+</Link>
+</div>
+<div className="package-details">
+<div className="package-info">
+<h5><span>5000PKR</span>/Per Person</h5>
+<h5><i className="flaticon-calendar" />5 Days/6 night</h5>
+</div>
+<h3>
+<i className="flaticon-arrival" />
+<Link to={`${process.env.PUBLIC_URL}/package-details`}>Rawalpindi</Link>
+</h3>
+<div className="package-rating">
+<strong><i className="bx bxs-star" /><span>8K+</span> Rating</strong>
+</div>
+</div>
+</div>
+</div>
+
+<div className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="300ms">
+<div className="package-card">
+<div className="package-thumb">
+<Link to={`${process.env.PUBLIC_URL}/package-details`}>
+<img src={package5Img} alt="" className="img-fluid" />
+</Link>
+</div>
+<div className="package-details">
+<div className="package-info">
+<h5><span>5000PKR</span>/Per Person</h5>
+<h5><i className="flaticon-calendar" />5 Days/6 night</h5>
+</div>
+<h3>
+<i className="flaticon-arrival" />
+<Link to={`${process.env.PUBLIC_URL}/package-details`}>Karachi</Link>
+</h3>
+<div className="package-rating">
+<strong><i className="bx bxs-star" /><span>8K+</span> Rating</strong>
+</div>
+</div>
+</div>
+</div>
+
+<div className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="600ms">
+<div className="package-card">
+<div className="package-thumb">
+<Link to={`${process.env.PUBLIC_URL}/package-details`}>
+<img src={package6Img} alt="" className="img-fluid" />
+</Link>
+</div>
+<div className="package-details">
+<div className="package-info">
+<h5><span>4500PKR</span>/Per Person</h5>
+<h5><i className="flaticon-calendar" />5 Days/6 night</h5>
+</div>
+<h3>
+<i className="flaticon-arrival" />
+<Link to={`${process.env.PUBLIC_URL}/package-details`}>SWAT</Link>
+</h3>
+<div className="package-rating">
+<strong><i className="bx bxs-star" /><span>8K+</span> Rating</strong>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+           {/* <div className="row">
             <div className="col-lg-12">
               <div className="pagination mt-30">
                 <Link to={"#"}>
