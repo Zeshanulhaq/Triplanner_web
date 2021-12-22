@@ -651,7 +651,7 @@ The nearest airport to Taxila is Islamabad International Airport located 36.5 ki
                                         </div>
                                     </div>
                                     <div className="col-lg-12 col-md-6">
-                                        <div className="p-sidebar-cards mt-40">
+                                        {/* <div className="p-sidebar-cards mt-40">
                                             <h5 className="package-d-head">Popular Packages</h5>
                                             <ul className="package-cards">
                                                 <li className="package-card-sm">
@@ -725,10 +725,10 @@ The nearest airport to Taxila is Islamabad International Airport located 36.5 ki
                                                     </div>
                                                 </li>
                                             </ul>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="col-lg-12 col-md-6">
-                                        <div className="p-sidebar-organizer mt-40">
+                                        {/* <div className="p-sidebar-organizer mt-40">
                                             <h5 className="package-d-head">Organized By</h5>
                                             <div className="organizer-card">
                                                 <div className="organizer-img">
@@ -750,10 +750,10 @@ The nearest airport to Taxila is Islamabad International Airport located 36.5 ki
                                             <div className="p-ask-btn">
                                                 <Link to={`${process.env.PUBLIC_URL}/contact`} >ASK A QUESTION</Link>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="col-lg-12 col-md-6">
-                                        <div className="p-sidebar-banner mt-40">
+                                        {/* <div className="p-sidebar-banner mt-40">
                                             <img src={sidebarBannar} alt="" className="img-fluid" />
                                             <div className="sidebar-banner-overlay">
                                                 <div className="overlay-content">
@@ -764,7 +764,7 @@ The nearest airport to Taxila is Islamabad International Airport located 36.5 ki
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
