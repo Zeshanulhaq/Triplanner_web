@@ -26,7 +26,7 @@ import packageDetails from "./components/pages/package/PackageDetails";
 import SignIn from "./components/pages/Account/SignIn";
 import Signup from "./components/pages/Account/Signup";
 import hottels from "./components/pages/hottels";
-
+import UploadDest from "./components/pages/Admin/UploadDest";
 import Traval from "./components/pages/Traval";
 
 //this is a comment
@@ -59,6 +59,10 @@ class Root extends React.Component {
             <Route
               path={`${process.env.PUBLIC_URL}/destination`}
               component={destinations}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/uploadDest`}
+              component={UploadDest}
             />
             <Route
               path={`${process.env.PUBLIC_URL}/Restorants`}
