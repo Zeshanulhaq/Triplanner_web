@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import {Link} from "react-router-dom";
 
 //Load Image
-import package1Img from "../../../assets/images/package/p-1.png"
 import package2Img from "../../../assets/images/package/p-2.png"
 import package3Img from "../../../assets/images/package/p-3.png"
 import package4Img from "../../../assets/images/package/p-4.png"
@@ -27,6 +26,8 @@ class Packages extends Component {
            <div className="container">
             <div className="row">
                <div className="col-lg-12 col-md-12 col-sm-12">
+                 {/* <input type="number" placeholder="fill me"/>
+                <Link to={`${process.env.PUBLIC_URL}/destination`} className="btn-common"> clickme</Link> */}
                  <div className="section-head pb-45">
                    <h5>Choose Your Package</h5>
                    <h2>Select Your best Package For Your Travel</h2>
@@ -40,7 +41,7 @@ class Packages extends Component {
                  <div className="package-card">
                    <div className="package-thumb">
                      <Link to={`${process.env.PUBLIC_URL}/package-details`}>
-                       <img src={package1Img} alt="" className="img-fluid" />
+                       <img src={package7Img} alt="" className="img-fluid" />
                      </Link>
                    </div>
                    <div className="package-details">
@@ -73,7 +74,7 @@ class Packages extends Component {
                      </div>
                      <h3>
                        <i className="flaticon-arrival" />
-                       <Link to={`${process.env.PUBLIC_URL}/package-details`}>Lahore, Pakistan</Link>
+                       <Link to={`${process.env.PUBLIC_URL}/PackageDetails1`}>Lahore, Pakistan</Link>
                      </h3>
                      <div className="package-rating">
                        <strong><i className="bx bxs-star" /><span>8K+</span> Rating</strong>
@@ -96,7 +97,7 @@ class Packages extends Component {
                      </div>
                      <h3>
                        <i className="flaticon-arrival" />
-                       <Link to={`${process.env.PUBLIC_URL}/package-details`}>Muzaffarabad</Link>
+                       <Link to={`${process.env.PUBLIC_URL}/package-details3`}>Muzaffarabad</Link>
                      </h3>
                      <div className="package-rating">
                        <strong><i className="bx bxs-star" /><span>8K+</span> Rating</strong>

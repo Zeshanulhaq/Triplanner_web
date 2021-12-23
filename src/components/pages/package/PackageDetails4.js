@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {Link} from "react-router-dom";
 
-import pd_thumb from "../../../assets/images/package/pd-thumb.png"
+import pd_thumb from "../../../assets/images/package/p-4.png"
 import pr_1 from "../../../assets/images/package/pr-1.png"
 import gallery1Img from "../../../assets/images/gallary/gl-1.png"
 import gallery2Img from "../../../assets/images/gallary/gl-2.png"
@@ -85,9 +85,9 @@ class PackageDetails extends Component {
                                 </div>
                                 <div className="package-header">
                                     <div className="package-title">
-                                        <h3>Taxila Sites & Monuments</h3>
+                                        <h3>Rawalpindi</h3>
                                         <strong><i className="flaticon-arrival" />
-                                            Taxila Punjab, Pakistan
+                                            Rawalpindi Punjab, Pakistan
                                         </strong>
                                     </div>
                                     <div className="pd-review">
@@ -99,7 +99,7 @@ class PackageDetails extends Component {
                                             <li><i className="bx bxs-star" /></li>
                                           <li><i className="bx bx-star" /></li>
                                         </ul>
-                                        <p>800 Review</p>
+                                        <p>1800 Review</p>
                                     </div>
                                 </div>
                                 < div className="p-short-info">
@@ -122,7 +122,7 @@ class PackageDetails extends Component {
                                         <i className="flaticon-traveller" />
                                         <div className="info-texts">
                                             <strong>Group Size</strong>
-                                            <p>12 People</p>
+                                            <p>18 People</p>
                                         </div>
                                     </div>
                                     <div className="single-info">
@@ -155,39 +155,41 @@ class PackageDetails extends Component {
                                                     <div className="tab-content-1">
                                                         <div className="p-overview">
                                                             <h5>Overview</h5>
-                                                            <p>Taxila (Urdu: ??????), is a city in Rawalpindi District of the Punjab, Pakistan. Taxila is situated about 32 km (20 mi) north-west of Islamabad and Rawalpindi, along the historic Grand Trunk Road, near the important Sikh pilgrimage centre of Hasan Abdal, and the Mughal-era Wah Gardens.
-
-Ancient Taxila was historically referred to as Takshashila in Sanskrit, and Takkasila in Pali. The earliest settlement at Taxila was founded around 1000 BCE at the Hathial site. The Hindu epic poem Mah?bh?rata is believed to have been first recited at Taxila, by the sage Vai?amp?yana. By some accounts, Taxila was home to one of the earliest, if not the first, universities in the world.
-
-Taxila’s ruins are internationally renowned, and function as a series of interrelated sites, including a Mesolithic cave, the remains of 4 ancient cities, and Buddhist monasteries and stupas. The ancient ruins of Taxila were declared a UNESCO World Heritage Site in 1980.</p>
+                                                            <p>Rawalpindi colloquially known as Pindi is the capital city of Rawalpindi Division located in the Punjab province of Pakistan. Rawalpindi is the fourth-largest city proper in Pakistan after Karachi, Lahore and Faisalabad respectively while the larger Islamabad-Rawalpindi metropolitan area is the country's third largest metropolitan area. Rawalpindi is adjacent to Pakistan's capital of Islamabad, and the two are jointly known as the "twin cities" on account of strong social and economic links between the cities.
+Rawalpindi is located on the Pothohar Plateau, known for its ancient Buddhist heritage,
+ especially in the neighbouring town of Taxila – a UNESCO World Heritage Site.
+ The city was destroyed during the invasion of Mahmud of Ghazni before being taken over by Gakhars in 1493.
+  In 1765, the ruling Gakhars were defeated as the city came under Sikh rule, and eventually became a major
+   city within the Sikh Empire based in Lahore. The city was conquered by the British Raj in 1849, and in 
+   1851 became the largest garrison town of the British Indian Army.Following the partition of British India 
+   in 1947, the city became home to the headquarters of the Pakistan Army hence retaining its status as a major military city. </p>
 
                                                             <h3>Geography</h3>
-                                                            <p>Taxila is located 32 km (20 mi) north-west of the Pakistani capital Islamabad. The city is located approximately 549 meters (1,801 ft) above sea level..</p>
-                                                            <h3>Industry</h3>
-                                                            <p>Taxila is home to Heavy Industries Taxila, a major Pakistani defence, military contractor, engineering conglomerate. The city’s economy is also closely linked to the large Pakistan Ordnance Factories at nearby Wah Cantt, which employs 27,000 people. Cottage and household industries include stoneware, pottery and footwear.</p>
+                                                            <h3>Climate</h3>
+                                                            <p>Rawalpindi features a humid subtropical climate with hot and wet summers,
+                                                                 a cooler and drier winter. Rawalpindi and its twin city Islamabad, during 
+                                                                 the year experiences an average of 91 thunderstorms, which is the highest 
+                                                                 frequency of any plain elevation city in the country. Strong windstorms are
+                                                                  frequent in the summer during which wind gusts have been reported by Pakistan
+                                                                   Meteorological Department to have reached 176 km/h (109 mph). 
+                                                                   In such thunder/wind storms, which results in some damage of infrastructure.
+                                                                   The weather is highly variable due to the proximity of the city to the foothills of Himalayas.</p>
                                                             <h3>Distance from Main Cities</h3>
-                                                            <p> Islamabad/Rawalpindi = 35KM </p>
-                                                            <p> Lahore = 378KM  </p>
-                                                            <p> Peshawar = 156KM </p>
-                                                            <p> Karachi = 1412KM </p>         
-                                          
+                                                            <p> Lahore = 365KM </p>
+                                                            <p> Faisalabad = 301KM </p>
+                                                            <p> Peshawar = 185KM </p>
+                                                            <p> Karachi = 1392KM </p>
                                                         </div>
                                                         <div className="p-highlight">
                                                             <h5>Transportation</h5>
                                                             <ul>
                                                             <h3>Rail</h3>
-Taxila is served by the Taxila Cantonment Junction railway station. Taxila Junction is served by the Karachi–Peshawar Railway Line, and is the southern terminus of the Khunjerab Railway, which connects Taxila to the Havelian railway station. A planned extension of the railway will eventually connect Taxila to China’s Southern Xinjiang Railway in Kashgar, as part of the China–Pakistan Economic Corridor.
-
+                                                            Rawalpindi railway station in the Saddar neighbourhood serves as a stop along Pakistan's 1,687 kilometres (1,048 mi)-long Main Line-1 railway that connects the city to the port city of Karachi to Peshawar. The stations is served by the Awam Express, Hazara Express, Islamabad Express, Jaffar Express, Khyber Mail trains, and serves as the terminus for the Margalla Express, Mehr Express, Rawal Express, Pakistan Express, Subak Raftar Express, Green Line Express, Sir Syed Express, Subak Kharam Express, and Tezgam trains.
 <h3>Road</h3>
-The M-1 Motorway, pictured near Taxila, links the city to Islamabad and Peshawar.
-
-The ancient Grand Trunk Road is designated as N-5 National Highway, and connects the city to the Afghan border, and northern Punjab. The Karakoram Highway’s southern terminus is in nearby Hasan Abdal, and connects Taxila to the Chinese border near the Hunza Valley.
-
-The city is linked to Peshawar and Islamabad by the M-1 Motorway, which in turn offers wider motorway access to Lahore via the M-2 Motorway, and Faisalabad via the M-4 Motorway.
-
+Rawalpindi is situated along the historic Grand Trunk Road that connects Peshawar to Islamabad and Lahore. The road is roughly paralleled by the M-1 Motorway between Peshawar and Rawalpindi, while the M-2 Motorway provides an alternate route to Lahore via the Salt Range. The Grand Trunk Road also provides access to the Afghan border via the Khyber Pass, with onwards connections to Kabul and Central Asia via the Salang Pass. The Karakoram Highway provides access between Islamabad and western China, and an alternate route to Central Asia via Kashgar in the Chinese region of Xinjiang.
+The Islamabad Expressway connects Rawalpindi's eastern portions with the Rawal Lake and heart of Islamabad. The IJP Road separates Rawalpindi's northern edge from Islamabad.
 <h3>Air</h3>
-The nearest airport to Taxila is Islamabad International Airport located 36.5 kilometers away. Peshawar’s Bacha Khan International Airport is 155 kilometers away.</ul>
-                                                        </div>
+Rawalpindi is served by the Islamabad International Airport. The airport is located in Fateh Jang, Attock. It offers non-stop flights throughout Pakistan, as well as to the Middle East, Europe, North America, Central Asia, East Asia, and Southeast Asia.         </ul>                                              </div>
                                                         <div className="p-details-table">
                                                             <table className="table caption-top">
                                                                 <tbody>
@@ -724,8 +726,8 @@ The nearest airport to Taxila is Islamabad International Airport located 36.5 ki
                                             </ul>
                                         </div> */}
                                     </div>
-                                    <div className="col-lg-12 col-md-6">
-                                        {/* <div className="p-sidebar-organizer mt-40">
+                                    {/* <div className="col-lg-12 col-md-6">
+                                        <div className="p-sidebar-organizer mt-40">
                                             <h5 className="package-d-head">Organized By</h5>
                                             <div className="organizer-card">
                                                 <div className="organizer-img">
@@ -747,8 +749,8 @@ The nearest airport to Taxila is Islamabad International Airport located 36.5 ki
                                             <div className="p-ask-btn">
                                                 <Link to={`${process.env.PUBLIC_URL}/contact`} >ASK A QUESTION</Link>
                                             </div>
-                                        </div> */}
-                                    </div>
+                                        </div>
+                                    </div> */}
                                     <div className="col-lg-12 col-md-6">
                                         {/* <div className="p-sidebar-banner mt-40">
                                             <img src={sidebarBannar} alt="" className="img-fluid" />

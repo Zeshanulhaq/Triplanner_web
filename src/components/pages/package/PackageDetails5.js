@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {Link} from "react-router-dom";
 
-import pd_thumb from "../../../assets/images/package/pd-thumb.png"
+import pd_thumb from "../../../assets/images/package/p-5.png"
 import pr_1 from "../../../assets/images/package/pr-1.png"
 import gallery1Img from "../../../assets/images/gallary/gl-1.png"
 import gallery2Img from "../../../assets/images/gallary/gl-2.png"
@@ -50,7 +50,7 @@ class PackageDetails extends Component {
             behavior: "smooth"
         });
     }
-  render() {
+    render() {
         const startDate =this.state.startDate;
 
     return (
@@ -85,9 +85,9 @@ class PackageDetails extends Component {
                                 </div>
                                 <div className="package-header">
                                     <div className="package-title">
-                                        <h3>Taxila Sites & Monuments</h3>
+                                        <h3>Karachi</h3>
                                         <strong><i className="flaticon-arrival" />
-                                            Taxila Punjab, Pakistan
+                                            Karachi Sindh, Pakistan
                                         </strong>
                                     </div>
                                     <div className="pd-review">
@@ -99,7 +99,7 @@ class PackageDetails extends Component {
                                             <li><i className="bx bxs-star" /></li>
                                           <li><i className="bx bx-star" /></li>
                                         </ul>
-                                        <p>800 Review</p>
+                                        <p>2100 Review</p>
                                     </div>
                                 </div>
                                 < div className="p-short-info">
@@ -122,7 +122,7 @@ class PackageDetails extends Component {
                                         <i className="flaticon-traveller" />
                                         <div className="info-texts">
                                             <strong>Group Size</strong>
-                                            <p>12 People</p>
+                                            <p>18 People</p>
                                         </div>
                                     </div>
                                     <div className="single-info">
@@ -155,40 +155,63 @@ class PackageDetails extends Component {
                                                     <div className="tab-content-1">
                                                         <div className="p-overview">
                                                             <h5>Overview</h5>
-                                                            <p>Taxila (Urdu: ??????), is a city in Rawalpindi District of the Punjab, Pakistan. Taxila is situated about 32 km (20 mi) north-west of Islamabad and Rawalpindi, along the historic Grand Trunk Road, near the important Sikh pilgrimage centre of Hasan Abdal, and the Mughal-era Wah Gardens.
-
-Ancient Taxila was historically referred to as Takshashila in Sanskrit, and Takkasila in Pali. The earliest settlement at Taxila was founded around 1000 BCE at the Hathial site. The Hindu epic poem Mah?bh?rata is believed to have been first recited at Taxila, by the sage Vai?amp?yana. By some accounts, Taxila was home to one of the earliest, if not the first, universities in the world.
-
-Taxila’s ruins are internationally renowned, and function as a series of interrelated sites, including a Mesolithic cave, the remains of 4 ancient cities, and Buddhist monasteries and stupas. The ancient ruins of Taxila were declared a UNESCO World Heritage Site in 1980.</p>
+                                                            <p>Karachi is the largest city in Pakistan and the twelfth largest city in the world.
+                                                                 It is the capital of the Pakistani province of Sindh. Ranked as a beta-global city,
+                                                                  it is Pakistan's premier industrial and financial centre with an estimated GDP of 
+                                                                  $164 billion (PPP) as of 2019.Karachi is Pakistan's most cosmopolitan city, linguistically,
+                                                                   ethnically, and religiously diverse as well as one of Pakistan's most secular and socially
+                                                                    liberal cities.With its location on the Arabian Sea, Karachi serves as a transport hub,
+                                                                     and is home to Pakistan's two largest seaports, the Port of Karachi and Port Bin Qasim, 
+                                                                 as well as Pakistan's busiest airport, the Jinnah International Airport. </p>
 
                                                             <h3>Geography</h3>
-                                                            <p>Taxila is located 32 km (20 mi) north-west of the Pakistani capital Islamabad. The city is located approximately 549 meters (1,801 ft) above sea level..</p>
-                                                            <h3>Industry</h3>
-                                                            <p>Taxila is home to Heavy Industries Taxila, a major Pakistani defence, military contractor, engineering conglomerate. The city’s economy is also closely linked to the large Pakistan Ordnance Factories at nearby Wah Cantt, which employs 27,000 people. Cottage and household industries include stoneware, pottery and footwear.</p>
+                                                            <p>Karachi lies very close to a major fault line, where the Indian tectonic
+                                                                 plate meets the Arabian tectonic plate.Within the city of Karachi are two 
+                                                                 small ranges: the Khasa Hills and Mulri Hills, which lie in the northwest 
+                                                                 and act as a barrier between North Nazimabad and Orangi.Karachi's hills are
+                                                                  barren and are part of the larger Kirthar Range, and have a maximum elevation of 528 metres (1,732 feet).</p>
+                                                            <h3>Climate</h3>
+                                                            <p>Summers are hot and humid, and Karachi is prone to deadly heatwaves.On the other hand,
+                                                                 cool sea breezes typically provide relief during hot summer months, and a text
+                                                                  message-based early warning system is now in place which helped prevent any fatalities
+                                                                   during an unusually strong heatwave in October 2017.The winter climate is dry and
+                                                                    lasts between December and February. It is dry and pleasant in winter relative to 
+                                                                    the warm hot season that follows, which starts in March and lasts until monsoons
+                                                                     arrive in June. Proximity to the sea maintains humidity levels at near-constant 
+                                                                     levels year-round. Thus, the climate is similar to a humid tropical climate except
+                                                                      for low precipitation and occasional temperatures well over 100 F (38 C) due to dry
+                                                                       continental influence.
+The city's highest monthly rainfall, 19 in (480 mm), occurred in July 1967.
+The city's highest rainfall in 24 hours occurred on 7 August 1953,
+ when about 278.1 millimetres (10.95 in) of rain lashed the city, resulting in major flooding.</p>
                                                             <h3>Distance from Main Cities</h3>
-                                                            <p> Islamabad/Rawalpindi = 35KM </p>
-                                                            <p> Lahore = 378KM  </p>
-                                                            <p> Peshawar = 156KM </p>
-                                                            <p> Karachi = 1412KM </p>         
-                                          
+                                                            <p> Lahore = 1211KM </p>
+                                                            <p> Faisalabad = 1115KM </p>
+                                                            <p> Peshawar = 1553KM </p>
+                                                            <p> Rawalpindi = 1392KM </p>
                                                         </div>
                                                         <div className="p-highlight">
                                                             <h5>Transportation</h5>
                                                             <ul>
                                                             <h3>Rail</h3>
-Taxila is served by the Taxila Cantonment Junction railway station. Taxila Junction is served by the Karachi–Peshawar Railway Line, and is the southern terminus of the Khunjerab Railway, which connects Taxila to the Havelian railway station. A planned extension of the railway will eventually connect Taxila to China’s Southern Xinjiang Railway in Kashgar, as part of the China–Pakistan Economic Corridor.
-
+                                                           <p> Karachi is linked by rail to the rest of the country by Pakistan Railways.
+                                                             The Karachi City Station and Karachi Cantonment Railway Station are the city's 
+                                                             two major railway stations.The city has an international rail link, the
+                                                              Thar Express which links Karachi Cantonment Station with Bhagat Ki Kothi
+                                                               station in Jodhpur, India.
+The railway system also handles freight linking Karachi
+ port to destinations up-country in northern Pakistan.
+ The city is the terminus for the Main Line-1 Railway which 
+ connects Karachi to Peshawar. Pakistan's rail network, including
+  the Main Line-1 Railway is being upgraded as part of the China
+   Pakistan Economic Corridor, allowing trains to depart Karachi and
+    travel on Pakistani railways at an average speed of 160 km/h (100 mph)
+     versus the average 60 to 105 km/h (35 to 65 mph) speed currently possible on existing track.</p>
 <h3>Road</h3>
-The M-1 Motorway, pictured near Taxila, links the city to Islamabad and Peshawar.
-
-The ancient Grand Trunk Road is designated as N-5 National Highway, and connects the city to the Afghan border, and northern Punjab. The Karakoram Highway’s southern terminus is in nearby Hasan Abdal, and connects Taxila to the Chinese border near the Hunza Valley.
-
-The city is linked to Peshawar and Islamabad by the M-1 Motorway, which in turn offers wider motorway access to Lahore via the M-2 Motorway, and Faisalabad via the M-4 Motorway.
-
+<p>Karachi is served by a road network estimated to be approximately 9,500 kilometres (5,900 miles) in length,serving approximately 3.1 million vehicles per day.</p>
 <h3>Air</h3>
-The nearest airport to Taxila is Islamabad International Airport located 36.5 kilometers away. Peshawar’s Bacha Khan International Airport is 155 kilometers away.</ul>
-                                                        </div>
-                                                        <div className="p-details-table">
+<p>Karachi's Jinnah International Airport is the busiest airport of Pakistan with a total of 7.2 million passengers in 2018. The current terminal structure was built in 1992, and is divided into international and domestic sections. Karachi's airport serves as a hub for the flag carrier, Pakistan International Airlines (PIA), as well as for Air Indus, Serene Air and airblue. The airport offers non-stop flights to destinations throughout East Asia, South Asia, Southeast Asia, the Persian Gulf States, Europe and North America.</p> </ul>                                
+<div className="p-details-table">
                                                             <table className="table caption-top">
                                                                 <tbody>
                                                                 <tr>
@@ -724,8 +747,8 @@ The nearest airport to Taxila is Islamabad International Airport located 36.5 ki
                                             </ul>
                                         </div> */}
                                     </div>
-                                    <div className="col-lg-12 col-md-6">
-                                        {/* <div className="p-sidebar-organizer mt-40">
+                                    {/* <div className="col-lg-12 col-md-6">
+                                        <div className="p-sidebar-organizer mt-40">
                                             <h5 className="package-d-head">Organized By</h5>
                                             <div className="organizer-card">
                                                 <div className="organizer-img">
@@ -747,8 +770,8 @@ The nearest airport to Taxila is Islamabad International Airport located 36.5 ki
                                             <div className="p-ask-btn">
                                                 <Link to={`${process.env.PUBLIC_URL}/contact`} >ASK A QUESTION</Link>
                                             </div>
-                                        </div> */}
-                                    </div>
+                                        </div>
+                                    </div> */}
                                     <div className="col-lg-12 col-md-6">
                                         {/* <div className="p-sidebar-banner mt-40">
                                             <img src={sidebarBannar} alt="" className="img-fluid" />
@@ -769,6 +792,7 @@ The nearest airport to Taxila is Islamabad International Airport located 36.5 ki
                     </div>
                 </div>
             </div>
+      </div>
         </>
     );
   }
