@@ -34,14 +34,14 @@ export default function SignUp() {
     if (upassword !== urpassword) {
       alert("Password Does not match");
     } else {
-      axios.post("http://127.0.0.1:8000/api/", {
+      let resp = axios.post("http://127.0.0.1:8000/userapi/", {
         fname,
         lname,
         uemail,
         upassword,
         urpassword,
       });
-      console.log(fname, lname, uemail, upassword, urpassword);
+      console.log("ha haha", fname, lname, uemail, upassword, urpassword, resp);
       alert("Successfully Registered ");
     }
     setfname("");

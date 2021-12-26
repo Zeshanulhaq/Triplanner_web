@@ -1,10 +1,10 @@
-import * as React from "react";
+// import * as React from "react";
+import { useState, useEffect } from "react";
+import { NavLink, Redirect, useHistory, Route } from "react-router-dom";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import CssBaseline from "@mui/material/CssBaseline";
 import TextField from "@mui/material/TextField";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
 import Link from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
@@ -12,19 +12,46 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import axios from "axios";
 
 const theme = createTheme();
 
 export default function SignIn() {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    // eslint-disable-next-line no-console
-    console.log({
-      email: data.get("email"),
-      password: data.get("password"),
-    });
-  };
+  const [auth, setAuth] = useState(false);
+
+  let history = useHistory();
+  const [redirect, setRedirect] = useState(4);
+
+  const [user, setuser] = useState([]);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  useEffect(() => {
+    async function getAllUser() {
+      try {
+        let userData = await axios.get("http://127.0.0.1:8000/userapi/");
+        console.log(userData.data);
+        setuser(userData.data);
+      } catch (error) {
+        console.log(error);
+      }
+    }
+    getAllUser();
+  }, []);
+
+  function clk() {
+    console.log({ email, password }, "check name and email");
+    console.log(user[0].uemail);
+    for (let i = 0; i < user.length; i++) {
+      if (user[i].uemail === email && user[i].upassword === password) {
+        localStorage.setItem("userID", user[i].id);
+        console.log(user[i].id);
+        // setRedirect(5)
+        history.push("/package");
+        // return <Route exact path='/profile' component={Profile} />
+      }
+    }
+  }
 
   return (
     <ThemeProvider theme={theme}>
@@ -46,7 +73,7 @@ export default function SignIn() {
           </Typography>
           <Box
             component="form"
-            onSubmit={handleSubmit}
+            // onSubmit={handleSubmit}
             noValidate
             sx={{ mt: 1 }}
           >
@@ -58,7 +85,8 @@ export default function SignIn() {
               label="Email Address"
               name="email"
               autoComplete="email"
-              autoFocus
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
             <TextField
               margin="normal"
@@ -69,16 +97,19 @@ export default function SignIn() {
               type="password"
               id="password"
               autoComplete="current-password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
             />
-            <FormControlLabel
+            {/* <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
               label="Remember me"
-            />
+            /> */}
             <Button
               type="submit"
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
+              onClick={clk}
             >
               Sign In
             </Button>
