@@ -74,6 +74,11 @@ const PackageDetails = (places) => {
     // setbmessage("");
   };
 
+  // const bookingerror = () => {
+  //   if ((value = { badult } === 13)) {
+  //     seterror("cannot be more than 12");
+  //   }
+  // };
   useEffect(() => {
     async function getPkg() {
       let resp = axios.get("http://127.0.0.1:8000/PkgDetailapi/");
@@ -1132,122 +1137,9 @@ const PackageDetails = (places) => {
                       </form>
                     </div>
                   </div>
-                  <div className="col-lg-12 col-md-6">
-                    {/* <div className="p-sidebar-cards mt-40">
-                                            <h5 className="package-d-head">Popular Packages</h5>
-                                            <ul className="package-cards">
-                                                <li className="package-card-sm">
-                                                    <div className="p-sm-img">
-                                                        <img src={pm_sm_1} alt="" />
-                                                    </div>
-                                                    <div className="package-info">
-                                                        <div className="package-date-sm">
-                                                            <strong><i className="flaticon-calendar" />5 Days/6 night</strong>
-                                                        </div>
-                                                        <h3><i className="flaticon-arrival" />
-                                                            <Link to={`${process.env.PUBLIC_URL}/package-details`}>Lake Garda</Link>
-                                                        </h3>
-                                                        <h5><span>$180</span>/ Per Person</h5>
-                                                    </div>
-                                                </li>
-                                                <li className="package-card-sm">
-                                                    <div className="p-sm-img">
-                                                        <img src={pm_sm_4} alt="" />
-                                                    </div>
-                                                    <div className="package-info">
-                                                        <div className="package-date-sm">
-                                                            <strong><i className="flaticon-calendar" />5 Days/6 night</strong>
-                                                        </div>
-                                                        <h3><i className="flaticon-arrival" />
-                                                            <Link to={`${process.env.PUBLIC_URL}/package-details`}>Paris Hill Tour</Link>
-                                                        </h3>
-                                                        <h5><span>$180</span>/ Per Person</h5>
-                                                    </div>
-                                                </li>
-                                                <li className="package-card-sm">
-                                                    <div className="p-sm-img">
-                                                        <img src={pm_sm_2} alt="" />
-                                                    </div>
-                                                    <div className="package-info">
-                                                        <div className="package-date-sm">
-                                                            <strong><i className="flaticon-calendar" />5 Days/6 night</strong>
-                                                        </div>
-                                                        <h3><i className="flaticon-arrival" />
-                                                            <Link to={`${process.env.PUBLIC_URL}/package-details`}>Amalfi Costa</Link>
-                                                        </h3>
-                                                        <h5><span>$180</span>/ Per Person</h5>
-                                                    </div>
-                                                </li>
-                                                <li className="package-card-sm">
-                                                    <div className="p-sm-img">
-                                                        <img src={pm_sm_3} alt="" />
-                                                    </div>
-                                                    <div className="package-info">
-                                                        <div className="package-date-sm">
-                                                            <strong><i className="flaticon-calendar" />5 Days/6 night</strong>
-                                                        </div>
-                                                        <h3><i className="flaticon-arrival" />
-                                                            <Link to={`${process.env.PUBLIC_URL}/package-details`}>Mount Dtna</Link>
-                                                        </h3>
-                                                        <h5><span>$180</span>/ Per Person</h5>
-                                                    </div>
-                                                </li>
-                                                <li className="package-card-sm">
-                                                    <div className="p-sm-img">
-                                                        <img src={pm_sm_4} alt="" />
-                                                    </div>
-                                                    <div className="package-info">
-                                                        <div className="package-date-sm">
-                                                            <strong><i className="flaticon-calendar" />5 Days/6 night</strong>
-                                                        </div>
-                                                        <h3><i className="flaticon-arrival" />
-                                                            <Link to={`${process.env.PUBLIC_URL}/package-details`}>Fench Rivirany</Link>
-                                                        </h3>
-                                                        <h5><span>$180</span>/ Per Person</h5>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div> */}
-                  </div>
-                  <div className="col-lg-12 col-md-6">
-                    {/* <div className="p-sidebar-organizer mt-40">
-                                            <h5 className="package-d-head">Organized By</h5>
-                                            <div className="organizer-card">
-                                                <div className="organizer-img">
-                                                    <img src={organizer} alt="" />
-                                                </div>
-                                                <div className="organizer-info">
-                                                    <h5>Travelhotel</h5>
-                                                    <p>Member since 2021</p>
-                                                    <ul className="organizer-rating">
-                                                        <li><i className="bx bxs-star" /></li>
-                                                        <li><i className="bx bxs-star" /></li>
-                                                        <li><i className="bx bxs-star" /></li>
-                                                        <li><i className="bx bxs-star" /></li>
-                                                        <li><i className="bx bx-star" /></li>
-                                                    </ul>
-                                                    <h5>500 Reviews</h5>
-                                                </div>
-                                            </div>
-                                            <div className="p-ask-btn">
-                                                <Link to={`${process.env.PUBLIC_URL}/contact`} >ASK A QUESTION</Link>
-                                            </div>
-                                        </div> */}
-                  </div>
-                  <div className="col-lg-12 col-md-6">
-                    {/* <div className="p-sidebar-banner mt-40">
-                                            <img src={sidebarBannar} alt="" className="img-fluid" />
-                                            <div className="sidebar-banner-overlay">
-                                                <div className="overlay-content">
-                                                    <h3>Get 50% Off
-                                                        In Dubai Tour</h3>
-                                                    <div className="sidebar-banner-btn">
-                                                        <Link to={`#`} >Book Now</Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> */}
-                  </div>
+                  <div className="col-lg-12 col-md-6"></div>
+                  <div className="col-lg-12 col-md-6"></div>
+                  <div className="col-lg-12 col-md-6"></div>
                 </div>
               </div>
             </div>

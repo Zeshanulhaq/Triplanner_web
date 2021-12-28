@@ -14,7 +14,6 @@ const AboutUs = () => {
       <GuideWrapper />
       <Achievement />
       <AboutReview />
-      <AboutBlog />
     </>
   );
 };

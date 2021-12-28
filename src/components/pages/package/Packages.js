@@ -1,7 +1,6 @@
 import React, { Component, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-
 //Load Image
 import package1Img from "../../../assets/images/package/p-1.png";
 import package2Img from "../../../assets/images/package/p-2.png";
@@ -12,18 +11,20 @@ import package6Img from "../../../assets/images/package/p-6.png";
 
 const Packages = () => {
   const [data, setdata] = useState([]);
-  const [pImg, setpImg] = useState();
-  const [price, setprice] = useState();
-  const [pdurat, setpdurat] = useState();
-  const [ptitle, setptitle] = useState();
-  const [prating, setprating] = useState();
+  // const [pImg, setpImg] = useState();
+  // const [price, setprice] = useState();
+  // const [pdurat, setpdurat] = useState();
+  // const [ptitle, setptitle] = useState();
+  // const [prating, setprating] = useState();
   // const [error, seterror] = useState(null);
   // const [loading, setloading] = useState(false);
+
+  const clk = () => {};
 
   useEffect(() => {
     async function getPkg() {
       let resp = axios.get("http://127.0.0.1:8000/Pakgapi/");
-      console.log("abcjakflsdaf;oiewhvkhfwe", (await resp).data);
+      // console.log((await resp).data);
       setdata((await resp).data);
     }
     getPkg();
@@ -64,8 +65,8 @@ const Packages = () => {
           </div>
           {/* Start */}
 
-          {data.map((places, i) => (
-            <div className="row">
+          <div className="row">
+            {data.map((places, i) => (
               <div
                 className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated"
                 data-wow-duration="1500ms"
@@ -73,7 +74,10 @@ const Packages = () => {
               >
                 <div className="package-card">
                   <div className="package-thumb">
-                    <Link to={`${process.env.PUBLIC_URL}/package-details`}>
+                    <Link
+                      to={`${process.env.PUBLIC_URL}/package-details`}
+                      onClick={clk}
+                    >
                       <img src={places.pImg} alt="" className="img-fluid" />
                     </Link>
                   </div>
@@ -83,30 +87,36 @@ const Packages = () => {
                         <span>{places.price}PKR</span>/Per Person
                       </h5>
                       <h5>
-                        <i className="flaticon-calendar" />5 Days/6 night
+                        <i className="flaticon-calendar" />
+                        {places.pdurat}Day
                       </h5>
                     </div>
                     <h3>
                       <i className="flaticon-arrival" />
                       <Link
                         to={`${process.env.PUBLIC_URL}/package-details`}
-                      ></Link>
+                        onClick={clk}
+                      >
+                        {" "}
+                        {places.ptitle}
+                      </Link>
                     </h3>
                     <div className="package-rating">
                       <strong>
                         <i className="bx bxs-star" />
-                        <span>8K+</span> Rating
+                        <span>{places.prating} </span> Rating
                       </strong>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
 
       {/* ===============  Package  area end =============== */}
+     
     </div>
   );
 };

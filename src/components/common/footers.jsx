@@ -417,8 +417,8 @@ We make sure that whatever you spend with us creates a positive impact towards t
               <div className="col-lg-12">
                 <div className="copyrigth-area">
                   <p>
-                    Copyright 2021 <Link to={`#`}>Triplanner</Link> | Design By{" "}
-                    <Link to={`#`}>CUI WAH</Link>
+                    Copyright 2021 <a href=" https://cdc.cuiwah.edu.pk/Event/Project/4184">Triplanner</a> | Design By{" "}
+                    <a href="https://www.cuiwah.edu.pk/">CUI WAH</a>
                   </p>
                 </div>
               </div>

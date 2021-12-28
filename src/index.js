@@ -29,6 +29,8 @@ import PackageDetails4 from "./components/pages/package/PackageDetails4";
 import PackageDetails5 from "./components/pages/package/PackageDetails5";
 
 import SignIn from "./components/pages/Account/SignIn";
+import Profile from "./components/pages/Account/Profile";
+
 import Signup from "./components/pages/Account/Signup";
 import hottels from "./components/pages/hottels";
 import UploadDest from "./components/pages/Admin/UploadDest";
@@ -120,6 +122,10 @@ class Root extends React.Component {
             <Route
               path={`${process.env.PUBLIC_URL}/SignIn`}
               component={SignIn}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/Profile`}
+              component={Profile}
             />
             <Route
               path={`${process.env.PUBLIC_URL}/Signup`}

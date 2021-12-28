@@ -47,7 +47,7 @@ export default function SignIn() {
         localStorage.setItem("userID", user[i].id);
         console.log(user[i].id);
         // setRedirect(5)
-        history.push("/package");
+        history.push("/Profile");
         // return <Route exact path='/profile' component={Profile} />
       }
     }
